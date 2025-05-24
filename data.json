@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "tag": "JP",
+    "name": "織田信長",
+    "birth": "1534",
+    "death": "1582",
+    "description": "天下統一を目指した戦国時代の武将。<br>1575年の長篠の戦いなどで知られる。",
+    "imgpath": "images/data/oda_nobunaga.avif"
+  },
+  {
+    "id": 2,
+    "tag": "WO",
+    "name": "ナポレオン",
+    "birth": "1769",
+    "death": "1821",
+    "description": "フランスの軍事指導者。<br>ナポレオン戦争では多数の勝利を収め、ヨーロッパを震撼させた。",
+    "imgpath": "images/data/napoleon.jpg"
+  },
+  {
+    "id": 3,
+  }
+]

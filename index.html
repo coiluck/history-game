@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史の扉 - 時空を超える旅</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/effect.css">
+    <link rel="icon" href="./images/favicon.ico">
+</head>
+<body>
+  <div id="modal-login">
+    <div class="modal-login-content">
+      <div class="modal-header">
+        <h2 class="modal-title">ログイン</h2>
+      </div>
+      <!-- ログインフォーム -->
+      <form id="loginForm">
+        <div class="form-group">
+          <label class="form-label" for="username">ユーザー名</label>
+          <input type="text" id="username" class="form-input" placeholder="ユーザー名を入力してください" required autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="password">パスワード</label>
+          <input type="password" id="password" class="form-input" placeholder="パスワードを入力してください" required autocomplete="current-password">
+        </div>
+        <!-- ログインボタン -->
+        <div class="login-actions">
+          <button type="submit" class="login-button" onclick="login()" id="login-btn">ログイン</button>
+        </div>
+      </form>
+      <!-- 新規登録ボタン -->
+      <div class="forgot-password">
+        <a id="register-link">新規登録はこちら</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-register">
+    <div class="modal-login-content">
+      <div class="modal-header">
+        <h2 class="modal-title">新規登録</h2>
+      </div>
+      <!-- ログインフォーム -->
+      <form id="loginForm-register">
+        <div class="form-group">
+          <label class="form-label" for="username">ユーザー名</label>
+          <input type="text" id="username-register" class="form-input" placeholder="ユーザー名を入力してください" required autocomplete="new-username">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="password">パスワード</label>
+          <input type="password" id="password-register" class="form-input" placeholder="パスワードを入力してください" required autocomplete="new-password">
+        </div>
+        <!-- ログインボタン -->
+        <div class="login-actions">
+          <button type="button" class="cancel-button" onclick="toLogin()">キャンセル</button>
+          <button type="submit" class="login-button" id="register-btn" onclick="register()">新規登録</button>
+        </div>
+      </form>
+      <div class="forgot-password">
+        <p>注意: パスワードは復旧できません</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-toppage">
+    <!-- サイト名や宝石、infoボタン -->
+    <div class="header">
+      <div class="gem-container">
+        <div class="gem-icon"></div>
+        <span class="gem-count" id="gem-count">1,250</span>
+      </div>
+      <div class="title-texts">
+        <h1>歴史の扉</h1>
+        <p>時空を超える旅へようこそ</p>
+      </div>
+      <button class="info-button">i</button>
+    </div>
+    <!-- 選択中のキャラクターエリア -->
+    <div class="character-display">
+      <div class="character-image">
+        キャラクター画像エリア
+      </div>
+      <div class="character-name">キャラクター名</div>
+      <div class="character-info">
+        <div class="character-year">
+          <div id="birth-year">1600</div>
+          <span>~</span>
+          <div id="death-year">1700</div>
+        </div>
+        <div class="character-description">
+          主な業績:
+          <div id="description">
+            ここに業績の説明が入ります。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- キャラクター選択、ゲーム開始、ガチャボタン -->
+    <div class="action-buttons">
+      <button class="btn" id="btn-characters">キャラ</button>
+      <button class="btn" id="btn-start">開始</button>
+      <button class="btn" id="btn-gacha">ガチャ</button>
+    </div>
+    <!-- 説明 -->
+    <div class="modal-info" id="modal-info">
+      <div id="modal-info-layer"></div>
+      <p>
+        【ゲームの概要】<br>
+        このゲームでは、歴史上の人物の生きた年代を比較して遊びます。
+        <br><br>
+        ・左上の宝石は、ガチャに使用するアイテムで、ゲームをプレイすることで貯まります。
+        <br><br>
+        ・画面中央には、現在あなたが選択しているキャラクターが表示されます。初期キャラクターは織田信長です。「キャラ」ボタンを押すと、所持しているキャラクターの中から選択できます。画像の下には、その人物の生没年や業績が記載されています。
+        <br><br>
+        【ログインについて】<br>
+        ページを更新するとログインを求められます。アカウントの復旧は原則できませんのでご注意ください。
+        <br><br>
+        【遊び方】<br>
+        「ゲーム開始」ボタンを押すとゲームが始まります。表示された人物と、あなたが選んだキャラクターの生きた年代を比較し、以下の選択肢から正しいものを選びます。<br>
+        ・昔の人間だ<br>
+        ・会えるかもしれない<br>
+        ・聞いたこともない<br><br>
+        例1: 選択中のキャラクターが織田信長で、表示された人物が卑弥呼 → 「昔の人間だ」<br>
+        例2: 選択中のキャラクターが織田信長で、表示された人物がガリレオ・ガリレイ → 「会えるかもしれない」
+        <br><br>
+        回答を3回間違えるとゲームオーバーになります。正解数に応じて宝石がもらえます。
+        <br><br>
+        【キャラ選択について】<br>
+        所持しているキャラクターのみが表示されます。初期状態では織田信長しか所持していません。ガチャを引くことで新しいキャラクターを獲得できます。
+        <br><br>
+        【ガチャについて】<br>
+        宝石を3000個使って、10連ガチャを引くことができます。ガチャには以下の4種類があります。<br>
+        ・すべての人物が対象のガチャ<br>
+        ・ヨーロッパの人物が対象のガチャ<br>
+        ・アジアの人物が対象のガチャ<br>
+        ・文化史の人物が対象のガチャ<br>
+        すでに所持している人物を引いた場合、効果はありません。
+      </p>
+    </div>
+  </div>
+
+  <div id="modal-select"></div>
+
+  <div id="modal-game"></div>
+
+  <div id="modal-gacha"></div>
+
+  <script src="./js/login.js" type="module"></script>
+  <script src="./js/toppage.js"></script>
+  <script type="module">
+    // Firebaseの初期化はlogin.jsで行うため、ここでは不要
+  </script>
+</body>
+</html>
