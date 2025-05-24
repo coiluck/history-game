@@ -81,6 +81,7 @@ async function register() {
     console.log('新しいユーザーが作成されました。ドキュメントID:', docRef.id);
 
     window.currentUser = {
+      id: docRef.id,
       username: username, // これも多分使わない
       gem: 0,
       character: [1]
@@ -117,10 +118,6 @@ async function login() {
 
     // デバッグ用：全てのユーザーを取得して確認
     const usersRef = collection(db, 'users');
-    const allUsers = await getDocs(usersRef);
-    allUsers.forEach(doc => {
-      console.log('ID:', doc.id, 'データ:', doc.data());
-    });
 
     const q = query(usersRef, where('user', '==', username));
     const querySnapshot = await getDocs(q);
@@ -144,6 +141,8 @@ async function login() {
     console.log('ログイン成功:', userData);
     
     window.currentUser = {
+      id: userDoc.id,
+      user: userData.user,
       gem: userData.gem,
       character: userData.character
     };
@@ -168,8 +167,57 @@ function enterToppage() {
   // ユーザー情報をtopページに反映
   document.getElementById('gem-count').textContent = window.currentUser.gem;
   // デフォルトではキャラクター1(織田信長)を選択
+  if (localStorage.getItem('currentCharacter') === null) {
+    localStorage.setItem('currentCharacter', 1);
+  } else {
+    // 別のがあるならそれを使う
+  }
+  displayPersonInfo(localStorage.getItem('currentCharacter'));
   // ページを遷移
   document.getElementById('modal-login').style.display = 'none';
   document.getElementById('modal-register').style.display = 'none';
   document.getElementById('modal-toppage').style.display = 'block';
+}
+
+// jsonファイルを読み込む
+async function loadData() {
+  try {
+    const response = await fetch('../data.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('データの読み込みに失敗しました:', error);
+    return null;
+  }
+}
+  
+// IDに基づいて人物情報を表示
+async function displayPersonInfo(id) {
+  console.log('探します - ID:', id, 'Type:', typeof id); // デバッグ用ログ
+  const data = await loadData();
+  
+  if (!data) {
+    console.log('データを読み込めませんでした');
+    return;
+  }
+    
+  // IDで検索
+  const person = data.find(item => item.id === Number(id));
+  console.log('選択中のキャラ:', person); // デバッグ用ログ
+  
+  if (person) {
+    // Topページに反映
+    document.querySelector('.character-name').textContent = person.name;
+    document.getElementById('birth-year').textContent = person.birth;
+    document.getElementById('death-year').textContent = person.death;
+    document.getElementById('description').innerHTML = person.description;
+    document.getElementById('character-image').src = person.imgpath;
+  } else {
+    console.log(`id: ${id} の人物が見つかりませんでした`);
+    localStorage.setItem('currentCharacter', 1);
+    displayPersonInfo(1);
+  }
 }

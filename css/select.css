@@ -1,0 +1,208 @@
+#modal-select {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(43, 57, 73, 0.9), rgba(27, 38, 59, 0.9));
+}
+
+.select-content {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* キャラクター選択エリア */
+.character-grid-container {
+  background: rgba(30, 58, 138, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.character-item {
+  aspect-ratio: 1;
+  border: 1px dashed #a68a64;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.character-item:hover {
+  border-color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+}
+
+.character-item.selected {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+}
+
+.character-item::before {
+  content: "キャラ";
+  font-size: 0.8rem;
+  color: #a68a64;
+  opacity: 0.7;
+}
+
+/* サイドパネル */
+.side-panel {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+}
+
+.character-info-select {
+  background: rgba(30, 58, 138, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.character-info-select h3 {
+  color: #fbbf24;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+  padding-bottom: 8px;
+}
+
+.effect-text {
+  line-height: 1.6;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+}
+
+/* ボタンエリア */
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1024px) {
+  .select-content {
+      grid-template-columns: 1fr 250px;
+      gap: 15px;
+      padding: 15px;
+  }
+  
+  .character-grid {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .select-content {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+  }
+  
+  .character-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+  }
+  
+  .side-panel {
+      grid-template-rows: auto auto;
+      gap: 15px;
+  }
+  
+  .button-area {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .character-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .header {
+      font-size: 1rem;
+  }
+}
+
+/* スクロールバーのスタイリング */
+.character-grid-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.character-grid-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.character-grid-container::-webkit-scrollbar-thumb {
+  background: rgba(166, 138, 100, 0.6);
+  border-radius: 4px;
+}
+
+.character-grid-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(166, 138, 100, 0.8);
+}

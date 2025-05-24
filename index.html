@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="./css/effect.css">
+    <link rel="stylesheet" href="./css/select.css">
     <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
@@ -80,8 +81,8 @@
     </div>
     <!-- 選択中のキャラクターエリア -->
     <div class="character-display">
-      <div class="character-image">
-        キャラクター画像エリア
+      <div class="character-image-container">
+        <img id="character-image" src="" alt="キャラクター画像" />
       </div>
       <div class="character-name">キャラクター名</div>
       <div class="character-info">
@@ -142,7 +143,70 @@
     </div>
   </div>
 
-  <div id="modal-select"></div>
+  <div id="modal-select">
+    <div class="select-content">
+    <!-- キャラクター選択エリア -->
+      <div class="character-grid-container">
+        <div class="character-grid">
+          <!-- キャラクターアイコン（25個のサンプル） -->
+          <div class="character-item selected"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+          <div class="character-item"></div>
+        </div>
+      </div>
+      <!-- サイドパネル -->
+      <div class="side-panel">
+        <!-- キャラクター効果表示エリア -->
+        <div class="character-info-select">
+          <h3>名前をここに</h3>
+          <div class="effect-text">
+            生年: <span id="birth-year-select">1600</span>
+            <br>
+            没年: <span id="death-year-select">1700</span>
+            <br>
+            業績: <span id="description-select">天下統一を目指した戦国時代の武将。<br>1575年の長篠の戦いなどで知られる。</span>
+          </div>
+        </div>
+        <!-- ボタンエリア -->
+        <div class="button-area">
+          <button class="btn btn-secondary">&lt;&lt; トップへ</button>
+          <button class="btn btn-primary">選択</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="modal-game"></div>
 
@@ -150,6 +214,7 @@
 
   <script src="./js/login.js" type="module"></script>
   <script src="./js/toppage.js"></script>
+  <script src="./js/select.js"></script>
   <script type="module">
     // Firebaseの初期化はlogin.jsで行うため、ここでは不要
   </script>
