@@ -2,6 +2,7 @@
   {
     "id": 1,
     "tag": "JP",
+    "play": true,
     "name": "織田信長",
     "birth": "1534",
     "death": "1582",
@@ -10,11 +11,32 @@
   },
   {
     "id": 2,
-    "tag": "WO",
+    "tag": "EU",
+    "play": true,
     "name": "ナポレオン",
     "birth": "1769",
     "death": "1821",
     "description": "フランスの軍事指導者。<br>ナポレオン戦争では多数の勝利を収め、ヨーロッパを震撼させた。",
     "imgpath": "./images/data/napoleon.jpg"
+  },
+  {
+    "id": 3,
+    "tag": "AS",
+    "play": true,
+    "name": "アクバル",
+    "birth": "1542",
+    "death": "1605",
+    "description": "ムガル帝国の第3代皇帝。<br>",
+    "imgpath": "./images/data/akbar.jpg"
+  },
+  {
+    "id": 4,
+    "tag": "AS",
+    "play": true,
+    "name": "アレクサンドル1世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/alexander1.jpg"
   }
 ]
