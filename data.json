@@ -13,30 +13,387 @@
     "id": 2,
     "tag": "EU",
     "play": true,
-    "name": "ナポレオン",
+    "name": "ナポレオン・ボナパルト",
     "birth": "1769",
     "death": "1821",
-    "description": "フランスの軍事指導者。<br>ナポレオン戦争では多数の勝利を収め、ヨーロッパを震撼させた。",
-    "imgpath": "./images/data/napoleon.jpg"
+    "description": "フランス革命時の軍事指導者。<br>欧州諸国と戦い、幾多の勝利をおさめてヨーロッパの大半を支配した。",
+    "imgpath": "./images/data/napoleon.avif"
   },
   {
     "id": 3,
     "tag": "AS",
     "play": true,
-    "name": "アクバル",
-    "birth": "1542",
-    "death": "1605",
-    "description": "ムガル帝国の第3代皇帝。<br>",
-    "imgpath": "./images/data/akbar.jpg"
+    "name": "アウラングゼーブ",
+    "birth": "1618",
+    "death": "1707",
+    "description": "ムガル帝国の第5代皇帝。<br>ジズヤの復活やヒンドゥー寺院のモスクへの建て替えなどを強行した。",
+    "imgpath": "./images/data/aurangzeb.avif"
   },
   {
     "id": 4,
     "tag": "AS",
     "play": true,
+    "name": "アクバル",
+    "birth": "1542",
+    "death": "1605",
+    "description": "ムガル帝国の第3代皇帝。<br>1565年には新都アグラを建設した。<br>ジズヤを廃止するなどの政策でヒンドゥー教徒との融和を図った。",
+    "imgpath": "./images/data/akbar.avif"
+  },
+  {
+    "id": 5,
+    "tag": "EU",
+    "play": true,
     "name": "アレクサンドル1世",
+    "birth": "1777",
+    "death": "1825",
+    "description": "ロシア帝国の皇帝<br>1805年のアウステルリッツの戦いでナポレオンに敗れたが、ロシア遠征では勝利した。<br>",
+    "imgpath": "./images/data/alexander1.avif"
+  },
+  {
+    "id": 6,
+    "tag": "EU",
+    "play": true,
+    "name": "イヴァン3世",
+    "birth": "1440",
+    "death": "1505",
+    "description": "モスクワ大公国の大公。<br>ビザンツ皇帝の姪を妃とし初めてツァーリを名乗る。<br>キプチャク＝ハン国の支配「タタールのくびき」から脱した。",
+    "imgpath": "./images/data/ivan3.avif"
+  },
+  {
+    "id": 7,
+    "tag": "AS",
+    "play": true,
+    "name": "イブン=バットゥータ",
+    "birth": "1304",
+    "death": "1369",
+    "description": "モロッコの旅行家。<br>30年間をかけアフリカ、ヨーロッパ、中国を旅した。<br>彼の旅行記「三大陸周遊記」は14世紀の世界を伝える貴重な資料である。",
+    "imgpath": "./images/data/ibenbatuta.avif"
+  },
+  {
+    "id": 8,
+    "tag": "EU",
+    "play": true,
+    "name": "ヴァスコ・ダ・ガマ",
+    "birth": "1460",
+    "death": "1524",
+    "description": "ポルトガルの航海者。<br>1498年、インド航路を開拓しカリカットに到達した。",
+    "imgpath": "./images/data/vasco.avif"
+  },
+  {
+    "id": 9,
+    "tag": "EU",
+    "play": true,
+    "name": "ヴォルテール",
+    "birth": "1694",
+    "death": "1778",
+    "description": "18世紀フランスを代表する啓蒙思想家",
+    "imgpath": "./images/data/voltaire.avif"
+  },
+  {
+    "id": 10,
+    "tag": "EU",
+    "play": true,
+    "name": "エカチェリーナ2世",
+    "birth": "1729",
+    "death": "1796",
+    "description": "ロシアの皇帝。啓蒙専制君主。<br>オスマン帝国との2度にわたる露土戦争に勝利し、ポーランド分割を主導した。",
+    "imgpath": "./images/data/catherine2.jpg"
+  },
+  {
+    "id": 11,
+    "tag": "EU",
+    "play": true,
+    "name": "エリザベス1世",
     "birth": "1605",
     "death": "1645",
     "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/alexander1.jpg"
+    "imgpath": "./images/data/elizabeth1.jpg"
+  },
+  {
+    "id": 12,
+    "tag": "EU",
+    "play": true,
+    "name": "カール5世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/carl5.jpg"
+  },
+  {
+    "id": 13,
+    "tag": "EU",
+    "play": true,
+    "name": "グスタフ=アドルフ",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/gustav.jpg"
+  },
+  {
+    "id": 14,
+    "tag": "EU",
+    "play": true,
+    "name": "クロムウェル",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/chromwell.jpg"
+  },
+  {
+    "id": 15,
+    "tag": "EU",
+    "play": true,
+    "name": "ジャンヌ・ダルク",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/jane.jpg"
+  },
+  {
+    "id": 16,
+    "tag": "EU",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/johnlock.jpg"
+  },
+  {
+    "id": 17,
+    "tag": "EU",
+    "play": true,
+    "name": "スレイマン1世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/suleyman1.jpg"
+  },
+  {
+    "id": 18,
+    "tag": "EU",
+    "play": true,
+    "name": "ティムール",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/timur.jpg"
+  },
+  {
+    "id": 19,
+    "tag": "EU",
+    "play": true,
+    "name": "ネルソン",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/nelson.jpg" 
+  },
+  {
+    "id": 20,
+    "tag": "EU",
+    "play": true,
+    "name": "バーブル",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/barber.jpg"
+  },
+  {
+    "id": 21,
+    "tag": "EU",
+    "play": true,
+    "name": "ピョートル1世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/peter1.jpg"
+  },
+  {
+    "id": 22,
+    "tag": "EU",
+    "play": true,
+    "name": "フェリペ2世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/felipe2.jpg"
+  },
+  {
+    "id": 23,
+    "tag": "EU",
+    "play": true,
+    "name": "ヘンリ8世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/henry8.jpg"
+  },
+  {
+    "id": 24,
+    "tag": "EU",
+    "play": true,
+    "name": "マゼラン",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/magellan.jpg"
+  },
+  {
+    "id": 25,
+    "tag": "EU",
+    "play": true,
+    "name": "マテオ・リッチ",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/matteoli.jpg"
+  },
+  {
+    "id": 26,
+    "tag": "EU",
+    "play": true,
+    "name": "マリア＝テレジア",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/maria-tereza.jpg"
+  },
+  {
+    "id": 27,
+    "tag": "EU",
+    "play": true,
+    "name": "マルコ・ポーロ",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/marco-polo.jpg"
+  },
+  {
+    "id": 28,
+    "tag": "EU",  
+    "play": true,
+    "name": "メフメト2世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/mehmet2.jpg"
+  },
+  {
+    "id": 29,
+    "tag": "EU",
+    "play": true,
+    "name": "ルイ14世",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/louis14.jpg"
+  },
+  {
+    "id": 30,
+    "tag": "EU",
+    "play": true,
+    "name": "ルソー",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/rousseau.jpg"
+  },
+  {
+    "id": 31,
+    "tag": "EU",
+    "play": true,
+    "name": "レオナルド・ダ・ヴィンチ",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/leonardo.jpg"
+  },
+  {
+    "id": 32,
+    "tag": "EU",
+    "play": true,
+    "name": "ロベスピエール",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/robspeyer.jpg"
+  },
+  {
+    "id": 33,
+    "tag": "EU",
+    "play": true,
+    "name": "ワシントン",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/washington.jpg"
+  },
+  {
+    "id": 34,
+    "tag": "EU",
+    "play": true,
+    "name": "ワット",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/watt.jpg"
+  },
+  {
+    "id": 35,
+    "tag": "AS",
+    "play": true,
+    "name": "乾隆帝",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/qing.jpg"
+  },
+  {
+    "id": 36,
+    "tag": "AS",
+    "play": true,
+    "name": "康熙帝",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/qing.jpg"
+  },
+  {
+    "id": 37,
+    "tag": "AS",
+    "play": true,
+    "name": "洪武帝（朱元璋）",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/qing.jpg"
+  },
+  {
+    "id": 38,
+    "tag": "AS",
+    "play": true,
+    "name": "順治帝",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/qing.jpg"
+  },
+  {
+    "id": 39,
+    "tag": "AS",
+    "play": true,
+    "name": "鄭成功",
+    "birth": "1605",
+    "death": "1645",
+    "description": "ロシアの第1代皇帝。<br>",
+    "imgpath": "./images/data/qing.jpg"
+  },
+  {
+    "id": 40,
+    "tag": "AS",
+    "play": true,
+    "name": "鄭和",
+    "birth": "1371",
+    "death": "1434",
+    "description": "明代の宦官、武将、航海者。<br>永楽帝に重用されて7回の大規模な航海を行い、アラビアやアフリカまで到達した。",
+    "imgpath": "./images/data/zhenghe.avif"
   }
 ]
