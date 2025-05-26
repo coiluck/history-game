@@ -59,7 +59,6 @@
 }
 
 .character-item::before {
-  content: "キャラ";
   font-size: 0.8rem;
   color: #a68a64;
   opacity: 0.7;
@@ -75,17 +74,17 @@
 .character-info-select {
   background: rgba(30, 58, 138, 0.3);
   border-radius: 12px;
-  padding: 20px;
+  padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
 }
 
 .character-info-select h3 {
   color: #fbbf24;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 1.1rem;
   border-bottom: 1px solid rgba(251, 191, 36, 0.3);
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
 .effect-text {
@@ -205,4 +204,38 @@
 
 .character-grid-container::-webkit-scrollbar-thumb:hover {
   background: rgba(166, 138, 100, 0.8);
+}
+
+/* 持っていないキャラの表示 */
+.character-card-disabled {
+  background: rgba(0, 0, 0, 0.4);
+  border-color: #64748b;
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: relative;
+}
+.character-card-disabled::after {
+  content: "未所持";
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  color: #ef4444;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.character-card-disabled:hover {
+  border-color: #64748b;
+  background: rgba(0, 0, 0, 0.4);
+  transform: none;
+  box-shadow: none;
+}
+/* 画像 */
+.character-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

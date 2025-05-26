@@ -88,6 +88,7 @@ async function register() {
     };
 
     enterToppage();
+    initializeCharacterGrid();
 
   } catch (error) {
     // エラーが起きた場合
@@ -148,6 +149,7 @@ async function login() {
     };
 
     enterToppage();
+    initializeCharacterGrid();
   
   } catch (error) {
     console.error('ログインエラー:', error);
@@ -219,5 +221,96 @@ async function displayPersonInfo(id) {
     console.log(`id: ${id} の人物が見つかりませんでした`);
     localStorage.setItem('currentCharacter', 1);
     displayPersonInfo(1);
+  }
+}
+
+
+
+
+
+// データ読み込みとキャラクターグリッド生成
+async function initializeCharacterGrid() {
+  try {
+    // data.jsonを読み込み
+    const response = await fetch('data.json');
+    const charactersData = await response.json();
+    
+    // character-gridコンテナを取得
+    const characterGrid = document.querySelector('.character-grid');
+    
+    // 現在のキャラクターIDを取得（最初に選択されるキャラクター）
+    const currentCharacterId = parseInt(localStorage.getItem('currentCharacter'));
+    
+    // window.currentUser.characterの配列を取得（利用可能なキャラクターのID配列）
+    const availableCharacters = window.currentUser.character || [];
+    
+    // キャラクターの表示順序を整理
+    let orderedCharacters = [];
+    
+    // 最初に現在選択されているキャラクターを追加
+    const currentCharacter = charactersData.find(char => char.id === currentCharacterId);
+    if (currentCharacter) {
+      orderedCharacters.push(currentCharacter);
+    }
+    
+    // 次に所持しているキャラクター（現在のキャラクター以外）を追加
+    const ownedCharacters = charactersData.filter(char => 
+      char.id !== currentCharacterId && availableCharacters.includes(char.id)
+    );
+    orderedCharacters = orderedCharacters.concat(ownedCharacters);
+    
+    // 最後に所持していないキャラクターを追加
+    const unownedCharacters = charactersData.filter(char => 
+      char.id !== currentCharacterId && !availableCharacters.includes(char.id)
+    );
+    orderedCharacters = orderedCharacters.concat(unownedCharacters);
+    
+    // 40個のcharacter-itemを作成
+    for (let i = 0; i < 40; i++) {
+      const characterItem = document.createElement('div');
+      // 最初のアイテムにselectedクラスを追加
+      if (i === 0) {
+        characterItem.className = 'character-item selected';
+      } else {
+        characterItem.className = 'character-item';
+      }
+      // キャラクターデータが存在する場合
+      if (i < orderedCharacters.length) {
+        const character = orderedCharacters[i];
+        // キャラクターが利用可能かどうかチェック
+        const isAvailable = availableCharacters.includes(character.id);
+        // 未所持の場合はdisabledクラスを追加
+        if (!isAvailable) {
+          characterItem.classList.add('character-card-disabled');
+        }
+        // 画像要素を作成
+        const img = document.createElement('img');
+        img.src = character.imgpath;
+        img.alt = character.name;
+        // 画像をcharacter-itemに追加
+        characterItem.appendChild(img);
+        // クリック時にcharacter-info-selectに人物の情報を表示
+        characterItem.addEventListener('click', function() {
+          document.querySelector('.character-info-select h3').textContent = character.name;
+          // 生年月日を表示
+          document.querySelector('.character-info-select #birth-year-select').textContent = character.birth;
+          // 没年月日を表示
+          document.querySelector('.character-info-select #death-year-select').textContent = character.death;
+          // 業績を表示
+          document.querySelector('.character-info-select #description-select').innerHTML = character.description;
+        });
+      }
+      // character-itemをgridに追加
+      characterGrid.appendChild(characterItem);
+    }
+    // 選択中のキャラクターの情報をcharacter-info-selectに表示
+    document.querySelector('.character-info-select h3').textContent = currentCharacter.name;
+    // 生年月日を表示
+    document.querySelector('.character-info-select #birth-year-select').textContent = currentCharacter.birth;
+    // 没年月日を表示
+    document.querySelector('.character-info-select #death-year-select').textContent = currentCharacter.death;
+    // 業績を表示
+  } catch (error) {
+    console.error('Error loading character data:', error);
   }
 }

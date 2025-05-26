@@ -97,7 +97,7 @@
     "birth": "1729",
     "death": "1796",
     "description": "ロシアの皇帝。啓蒙専制君主。<br>オスマン帝国との2度にわたる露土戦争に勝利し、ポーランド分割を主導した。",
-    "imgpath": "./images/data/catherine2.jpg"
+    "imgpath": "./images/data/catherine2.avif"
   },
   {
     "id": 11,
@@ -152,6 +152,9 @@
   {
     "id": 16,
     "tag": "EU",
+    "play": true,
+    "name": "ジョン・ロック",
+    "birth": "1605",
     "death": "1645",
     "description": "ロシアの第1代皇帝。<br>",
     "imgpath": "./images/data/johnlock.jpg"
