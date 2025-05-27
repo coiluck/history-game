@@ -1,9 +1,1493 @@
 [
   {
     "id": 1,
-    "name": "織田信長",
-    "birth": "1534",
-    "death": "1582",
-    "description": "天下統一を目指した戦国時代の武将。<br>1575年の長篠の戦いなどで知られる。"
+    "name": "アークライト",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "アウランパヤー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "アダム・スミス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "アッバース1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "アメリゴヴェスプッチ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 6,
+    "name": "アルタン=ハン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "アルバ公",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "アルブケルケ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 9,
+    "name": "アルメイダ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 10,
+    "name": "アレクサンドル1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "アンリ4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 12,
+    "name": "イヴァン3世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 13,
+    "name": "イヴァン4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "イェルマーク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "イグナティウス=ロヨラ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "イサベル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 17,
+    "name": "イスマーイール1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "イブン・バットゥータ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 19,
+    "name": "イブン・ハルドゥーン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 20,
+    "name": "イブン=マージド",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "ヴァスコダガマ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 22,
+    "name": "ウィクリフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 23,
+    "name": "ヴォルテール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 24,
+    "name": "ウォルポール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 25,
+    "name": "ウルグ=ベク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 26,
+    "name": "エカチェリーナ2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 27,
+    "name": "エカチェリーナ2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 28,
+    "name": "エセン=ハン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 29,
+    "name": "エドワード6世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 30,
+    "name": "エドワード黒太子",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "エベール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "エラスムス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 33,
+    "name": "エリザベス1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "エンリケ航海王子",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 35,
+    "name": "オスマン1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 36,
+    "name": "オラニエ公ウィレム",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 37,
+    "name": "カートライト",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 38,
+    "name": "カール4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 39,
+    "name": "カール5世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 40,
+    "name": "カール12世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 41,
+    "name": "カジェミシュ3世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 42,
+    "name": "カトリーヌ=ド=メディシス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 43,
+    "name": "カビール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 44,
+    "name": "カブラル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 45,
+    "name": "カボット",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 46,
+    "name": "カリクストゥス2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 47,
+    "name": "ガリレオ・ガリレイ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 48,
+    "name": "カルヴァン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 49,
+    "name": "カルロス1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 50,
+    "name": "カント",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 51,
+    "name": "グスタフ=アドルフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 52,
+    "name": "クライブ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 53,
+    "name": "クリスチャン4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 54,
+    "name": "グレシャム",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 55,
+    "name": "クロムウェル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 56,
+    "name": "クロンプトン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 57,
+    "name": "コシューシコ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 58,
+    "name": "コペルニクス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 59,
+    "name": "コルテス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 60,
+    "name": "コルベール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 61,
+    "name": "コンスタンティヌス11世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 62,
+    "name": "サヴォナローラ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 63,
+    "name": "ザクセン選帝侯フリードリヒ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 64,
+    "name": "シェイエス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 65,
+    "name": "シェイクスピア",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 66,
+    "name": "ジェームズ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 67,
+    "name": "ジェームズ6世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 68,
+    "name": "ジェファソン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 69,
+    "name": "ジギスムント",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 70,
+    "name": "シャー=ジャハーン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 71,
+    "name": "シャー=ルフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 72,
+    "name": "シャイバーニー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 73,
+    "name": "ジャックリー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 74,
+    "name": "シャルル7世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 75,
+    "name": "シャルル8世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 76,
+    "name": "シャルル9世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 77,
+    "name": "ジャンヌダルク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 78,
+    "name": "ジョージ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 79,
+    "name": "ジョージ3世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 80,
+    "name": "ジョゼフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 81,
+    "name": "ジョン=ケイ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 82,
+    "name": "ジョンボール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 83,
+    "name": "スティーヴンソン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 84,
+    "name": "ステンカ=ラージン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 85,
+    "name": "スレイマン1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 86,
+    "name": "セリム1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 87,
+    "name": "ダービー父子",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 88,
+    "name": "タクーシン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 89,
+    "name": "ダライ=ラマ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 90,
+    "name": "ダントン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 91,
+    "name": "チャールズ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 92,
+    "name": "チャクリ（ラーマ1世）",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 93,
+    "name": "ツヴィングリ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 94,
+    "name": "ツォンカパ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 95,
+    "name": "ティムール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 96,
+    "name": "デカルト",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 97,
+    "name": "デュプクレス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 98,
+    "name": "テュルゴー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 99,
+    "name": "トスカネリ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 100,
+    "name": "トマス=ペイン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 101,
+    "name": "トマス=マン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 102,
+    "name": "トマスモア",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 103,
+    "name": "トレヴィシック",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 104,
+    "name": "ドレーク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 105,
+    "name": "ナーディル=シャー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 106,
+    "name": "ナーナク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 107,
+    "name": "ニューコメン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 108,
+    "name": "ニュートン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 109,
+    "name": "ヌルハチ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 110,
+    "name": "ネッケル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 111,
+    "name": "ネルソン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 112,
+    "name": "ハーグリーヴズ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 113,
+    "name": "バーブル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 114,
+    "name": "ハインリヒ4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 115,
+    "name": "ハインリヒ5世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 116,
+    "name": "バストロメウ=ディアス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 117,
+    "name": "パトリック=ヘンリ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 118,
+    "name": "バブーフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 119,
+    "name": "ハミルトン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 120,
+    "name": "バヤジット1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 121,
+    "name": "バルボア",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 122,
+    "name": "ピサロ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 123,
+    "name": "ピョートル1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 124,
+    "name": "ピョートル3世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 125,
+    "name": "フィヒテ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 126,
+    "name": "フィリップ4世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 127,
+    "name": "フィリップ6世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 128,
+    "name": "フィルマー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 129,
+    "name": "フェリペ2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 130,
+    "name": "フェリペ5世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 131,
+    "name": "フェルディナンド1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 132,
+    "name": "フス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 133,
+    "name": "フランシスコ=ザビエル",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 134,
+    "name": "フランソワ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 135,
+    "name": "フリードリヒ2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 136,
+    "name": "フリードリヒ=ヴィルヘルム1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 137,
+    "name": "フルトン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 138,
+    "name": "フロンド",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 139,
+    "name": "ベーコン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 140,
+    "name": "ヘンリ7世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 141,
+    "name": "ヘンリ8世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 142,
+    "name": "ホイットニー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 143,
+    "name": "ホーキンズ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 144,
+    "name": "ボーダン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 145,
+    "name": "ボシュエ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 146,
+    "name": "ホップズ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 147,
+    "name": "ボニファティウス8世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 148,
+    "name": "ホンタイジ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 149,
+    "name": "マカートニー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 150,
+    "name": "マザラン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 151,
+    "name": "マックスウェーバー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 152,
+    "name": "マテオ=リッチ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 153,
+    "name": "マラー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 154,
+    "name": "マリ=ルイーズ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 155,
+    "name": "マリア=テレジア",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 156,
+    "name": "マリーアントワネット",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 157,
+    "name": "マルコ=ポーロ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 158,
+    "name": "ミハイル=ロマノフ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 159,
+    "name": "ミュンツァー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 160,
+    "name": "ムハンマド=アリー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 161,
+    "name": "メアリ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 162,
+    "name": "メフメト2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 163,
+    "name": "モンテスキュー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 164,
+    "name": "ヤクブ=ベク",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 165,
+    "name": "ヨーゼフ2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 166,
+    "name": "ラ=サール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 167,
+    "name": "ラ=ファイエット",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 168,
+    "name": "ラヴォワジェ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 169,
+    "name": "ラクスマン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 170,
+    "name": "ラスカサス",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 171,
+    "name": "ラダイト",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 172,
+    "name": "リシュリュー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 173,
+    "name": "ルイ13世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 174,
+    "name": "ルイ16世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 175,
+    "name": "ルーヴォワ",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 176,
+    "name": "ルソー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 177,
+    "name": "ルドルフ1世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 178,
+    "name": "レオ10世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 179,
+    "name": "レオポルト2世",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 180,
+    "name": "ロイヒリン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 181,
+    "name": "ローリー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 182,
+    "name": "ロック",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 183,
+    "name": "ロベスピエール",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 184,
+    "name": "ワシントン",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 185,
+    "name": "ワット",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 186,
+    "name": "ワットタイラー",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 187,
+    "name": "永楽帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 188,
+    "name": "王直",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 189,
+    "name": "王陽明",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 190,
+    "name": "郭守敬",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 191,
+    "name": "乾隆帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 192,
+    "name": "建文帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 193,
+    "name": "顧憲成",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 194,
+    "name": "呉三桂",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 195,
+    "name": "康熙帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 196,
+    "name": "洪武帝（朱元璋）",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 197,
+    "name": "順治帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 198,
+    "name": "徐光啓",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 199,
+    "name": "小ピット",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 200,
+    "name": "崇禎帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 201,
+    "name": "世宗",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 202,
+    "name": "正統帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 203,
+    "name": "太宗",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 204,
+    "name": "張居正",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 205,
+    "name": "鄭芝竜",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 206,
+    "name": "鄭成功",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 207,
+    "name": "鄭和",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 208,
+    "name": "万暦帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 209,
+    "name": "李自成",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 210,
+    "name": "李舜臣",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 211,
+    "name": "李成桂",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 212,
+    "name": "雍正帝",
+    "birth": "",
+    "death": "",
+    "description": ""
+  },
+  {
+    "id": 213,
+    "name": "魏忠賢",
+    "birth": "",
+    "death": "",
+    "description": ""
   }
 ]

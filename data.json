@@ -104,118 +104,118 @@
     "tag": "EU",
     "play": true,
     "name": "エリザベス1世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/elizabeth1.jpg"
+    "birth": "1533",
+    "death": "1603",
+    "description": "イングランドのテューダー朝の女王。<br>1588年のアルマダの海戦でスペインの無敵艦隊を破った。<br>首長法や統一法で国教会を成立させた。",
+    "imgpath": "./images/data/elizabeth1.avif"
   },
   {
     "id": 12,
     "tag": "EU",
     "play": true,
     "name": "カール5世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/carl5.jpg"
+    "birth": "1500",
+    "death": "1558",
+    "description": "神聖ローマ皇帝。<br>ドイツ王とスペイン王（カルロス1世）を兼ねた。<br>1521年にヴォルムス帝国議会を開催してルターを召喚した。",
+    "imgpath": "./images/data/charles.avif"
   },
   {
     "id": 13,
     "tag": "EU",
     "play": true,
     "name": "グスタフ=アドルフ",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/gustav.jpg"
+    "birth": "1594",
+    "death": "1632",
+    "description": "スウェーデンの国王。<br>三十年戦争では新教側の中心としてドイツに侵攻した。",
+    "imgpath": "./images/data/gustavus.avif"
   },
   {
     "id": 14,
     "tag": "EU",
     "play": true,
     "name": "クロムウェル",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/chromwell.jpg"
+    "birth": "1599",
+    "death": "1658",
+    "description": "イギリスのピューリタン革命（1642~49年）の指導者。<br>鉄騎隊を指揮して戦いで活躍し、独裁体制を敷いた。",
+    "imgpath": "./images/data/cromwell.avif"
   },
   {
     "id": 15,
     "tag": "EU",
     "play": true,
     "name": "ジャンヌ・ダルク",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/jane.jpg"
+    "birth": "1412",
+    "death": "1431",
+    "description": "オルレアンの少女。<br>百年戦争で劣勢のフランス軍を指揮し、オルレアンを解放した。",
+    "imgpath": "./images/data/jehanne.avif"
   },
   {
     "id": 16,
     "tag": "EU",
     "play": true,
     "name": "ジョン・ロック",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/johnlock.jpg"
+    "birth": "1632",
+    "death": "1704",
+    "description": "イギリスの哲学者。<br>「統治二論」で社会契約論を唱えた。",
+    "imgpath": "./images/data/johnlocke.avif"
   },
   {
     "id": 17,
-    "tag": "EU",
+    "tag": "AS",
     "play": true,
     "name": "スレイマン1世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/suleyman1.jpg"
+    "birth": "1494",
+    "death": "1566",
+    "description": "オスマン帝国のスルタン。<br>1529年にはウィーンを包囲するなどし、帝国領土を拡張した。<br>フランソワ1世に与えた特権は後のカピチュレーションとなる。",
+    "imgpath": "./images/data/suleiman.avif"
   },
   {
     "id": 18,
-    "tag": "EU",
+    "tag": "AS",
     "play": true,
     "name": "ティムール",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/timur.jpg"
+    "birth": "1370",
+    "death": "1405",
+    "description": "ティムール朝の創始者。<br>サマルカンドに都を置き、領土を大きく拡張した。<br>1402年のアンカラの戦いでオスマン皇帝バヤジット1世を捕虜にした。",
+    "imgpath": "./images/data/timur.avif"
   },
   {
     "id": 19,
     "tag": "EU",
     "play": true,
     "name": "ネルソン",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/nelson.jpg" 
+    "birth": "1758",
+    "death": "1805",
+    "description": "イギリス海軍の提督。<br>ナポレオン戦争で活躍した。<br>1805年のトラファルガー海戦でフランス・スペイン連合艦隊に大勝利をおさめた。",
+    "imgpath": "./images/data/nelson.avif" 
   },
   {
     "id": 20,
     "tag": "EU",
     "play": true,
     "name": "バーブル",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/barber.jpg"
+    "birth": "1483",
+    "death": "1530",
+    "description": "ムガル帝国の創始者。<br>1526年にパーニーパットの戦いでロディー朝を破り、デリーに入城した。",
+    "imgpath": "./images/data/babur.avif"
   },
   {
     "id": 21,
     "tag": "EU",
     "play": true,
     "name": "ピョートル1世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/peter1.jpg"
+    "birth": "1672",
+    "death": "1725",
+    "description": "ロシア皇帝。<br>北方戦争でスウェーデンのカール12世に勝利し、バルト海に進出した。<br>1689年に康煕帝とネルチンスク条約を締結し、国境を確定した。",
+    "imgpath": "./images/data/peter.avif"
   },
   {
     "id": 22,
     "tag": "EU",
     "play": true,
     "name": "フェリペ2世",
-    "birth": "1605",
-    "death": "1645",
+    "birth": "1527",
+    "death": "1598",
     "description": "ロシアの第1代皇帝。<br>",
     "imgpath": "./images/data/felipe2.jpg"
   },
