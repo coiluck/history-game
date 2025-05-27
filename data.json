@@ -27,7 +27,7 @@
     "birth": "1618",
     "death": "1707",
     "description": "ムガル帝国の第5代皇帝。<br>ジズヤの復活やヒンドゥー寺院のモスクへの建て替えなどを強行した。",
-    "imgpath": "./images/data/aurangzeb.avif"
+    "imgpath": "./images/data/aurangazeb.avif"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "birth": "1542",
     "death": "1605",
     "description": "ムガル帝国の第3代皇帝。<br>1565年には新都アグラを建設した。<br>ジズヤを廃止するなどの政策でヒンドゥー教徒との融和を図った。",
-    "imgpath": "./images/data/akbar.avif"
+    "imgpath": "./images/data/akber.avif"
   },
   {
     "id": 5,
@@ -384,10 +384,10 @@
     "tag": "AS",
     "play": true,
     "name": "鄭成功",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/qing.jpg"
+    "birth": "1624",
+    "death": "1662",
+    "description": "清代の台湾の支配者<br>ゼーランディア城を攻撃してオランダ人を追放。<br>清朝は1661年に遷界令を出し、対抗した。",
+    "imgpath": "./images/data/teiseikou.avif"
   },
   {
     "id": 40,

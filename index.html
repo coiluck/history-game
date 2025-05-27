@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="./css/effect.css">
     <link rel="stylesheet" href="./css/select.css">
+    <link rel="stylesheet" href="./css/game.css">
     <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
@@ -121,9 +122,9 @@
         <br><br>
         【遊び方】<br>
         「ゲーム開始」ボタンを押すとゲームが始まります。表示された人物と、あなたが選んだキャラクターの生きた年代を比較し、以下の選択肢から正しいものを選びます。<br>
-        ・昔の人間だ<br>
-        ・会えるかもしれない<br>
-        ・聞いたこともない<br><br>
+        ・もっと昔<br>
+        ・同時代<br>
+        ・新しい<br><br>
         例1: 選択中のキャラクターが織田信長で、表示された人物が卑弥呼 → 「昔の人間だ」<br>
         例2: 選択中のキャラクターが織田信長で、表示された人物がガリレオ・ガリレイ → 「会えるかもしれない」
         <br><br>
@@ -171,19 +172,73 @@
         <!-- ボタンエリア -->
         <div class="button-area">
           <button class="btn btn-secondary">&lt;&lt; トップへ</button>
+          <div id="select-button">
           <button class="btn btn-primary">選択</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="modal-game"></div>
+  <div id="modal-game">
+    <!-- ゲームヘッダー -->
+    <div class="game-header">
+      <div class="lives-container">
+        <span class="heart">❤️</span>
+        <span class="heart">❤️</span>
+        <span class="heart">❤️</span>
+      </div>
+      <div id="game-score">正解数: 0</div>
+    </div>
+    <!-- メインゲーム部分 -->
+    <div class="game-content">
+      <div class="character-section">
+        <!-- 選択中のキャラクター -->
+        <div class="selected-cards-container">
+          <div class="selected-card-wrapper">
+            <div class="selected-character card-front">
+              <div id="game-character-title">あなたが選択中</div>
+              <div id="game-character-image"><img src="" alt="選択中の人物"></div>
+              <div id="game-character-name">織田信長</div>
+              <div id="game-character-dates">1534年 - 1582年</div>
+            </div>
+            <div class="selected-character card-back">
+              <div id="game-character-title-back">あなたが選択中</div>
+              <div id="game-character-image-back"><img src="" alt="選択中の人物"></div>
+              <div id="game-character-name-back">織田信長</div>
+              <div id="game-character-dates-back">1534年 - 1582年</div>
+            </div>
+          </div>
+        </div>
+        <!-- 比較対象のキャラクター -->
+        <div class="target-cards-container">
+          <div class="card-wrapper">
+            <div class="target-character card-front">
+              <div class="game-target-name">比較対象</div>
+              <div id="target-name-front">卑弥呼</div>
+            </div>
+            <div class="target-character card-back">
+              <div class="game-target-name">比較対象</div>
+              <div id="target-name-back">卑弥呼</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 選択肢 -->
+      <div class="choices-section">
+        <button class="choice-button choice-1">もっと昔</button>
+        <button class="choice-button choice-2">同時代</button>
+        <button class="choice-button choice-3">新しい</button>
+      </div>
+    </div>
+  </div>
 
   <div id="modal-gacha"></div>
 
   <script src="./js/login.js" type="module"></script>
   <script src="./js/toppage.js"></script>
   <script src="./js/select.js"></script>
+  <script src="./js/game.js"></script>
   <script type="module">
     // Firebaseの初期化はlogin.jsで行うため、ここでは不要
   </script>

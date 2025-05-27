@@ -139,7 +139,7 @@ async function initializeCharacterGrid() {
         // 画像をcharacter-itemに追加
         characterItem.appendChild(img);
         // クリック時にcharacter-info-selectに人物の情報を表示
-        characterItem.addEventListener('click', function() {
+        characterItem.addEventListener('click', () => {
           document.querySelector('.character-info-select h3').textContent = character.name;
           // 生年月日を表示
           document.querySelector('.character-info-select #birth-year-select').textContent = character.birth;
@@ -150,7 +150,7 @@ async function initializeCharacterGrid() {
           
           // 所持状態に応じて異なるイベントハンドラを実行
           if (isAvailable) {
-            clickOwnedCharacters();
+            clickOwnedCharacters.call(characterItem);
           } else {
             clickUnwnedCharacters();
           }
@@ -176,7 +176,9 @@ async function initializeCharacterGrid() {
 function clickOwnedCharacters() {
   // 選択ボタンを押せるようにする
   const selectButton = document.querySelector('.btn-primary');
-  selectButton.disabled = false;
+  selectButton.classList.remove('disabled-button-select');
+  // pointer-eventsとcursorは両立できないらしいから親要素につける
+  document.getElementById('select-button').style.cursor = 'pointer';
   // 今まで.selectedクラスがついていたものから.selectedクラスを削除
   const selectedCharacter = document.querySelector('.character-item.selected');
   if (selectedCharacter) {
@@ -190,5 +192,7 @@ function clickOwnedCharacters() {
 function clickUnwnedCharacters() {
   // 選択ボタンを押せなくする
   const selectButton = document.querySelector('.btn-primary');
-  selectButton.disabled = true;
+  selectButton.classList.add('disabled-button-select');
+  // pointer-eventsとcursorは両立できないらしいから親要素につける
+  document.getElementById('select-button').style.cursor = 'not-allowed';
 }
