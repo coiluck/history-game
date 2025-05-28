@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/effect.css">
     <link rel="stylesheet" href="./css/select.css">
     <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/gacha.css">
+    <link rel="stylesheet" href="./css/gacha-result.css">
     <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
@@ -233,14 +235,66 @@
     </div>
   </div>
 
-  <div id="modal-gacha"></div>
+  <div id="modal-gacha">
+    <div class="gacha-container">
+      <header class="page-header">
+        <button id="btn-gacha-toTop">
+          &lt;&lt; トップへ
+        </button>
+        <div class="gem-status">
+          <div class="gem-icon"></div>
+          <span class="gem-count">1,250</span>
+        </div>
+      </header>
+      <div class="gacha-card">
+        <h1 class="gacha-title">探求</h1>
+        <img src="./images/theAstronomer.avif" alt="ガチャ画像" class="gacha-image">
+        <p class="gacha-description">──その手に、歴史を紡ぐ鍵を。</p>
+      </div>
+      <div class="button-group">
+        <button class="gacha-button" id="btn-gacha-back">
+        &lt;&lt; トップへ
+        </button>
+        <button class="gacha-button" id="btn-gacha-draw">
+        3回引く
+        <span class="button-cost">💎 300</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-gacha-result">
+    <div class="gacha-result-container">
+      <header class="page-header">
+        <button id="btn-gacha-result-toTop">
+          &lt;&lt; トップへ
+        </button>
+        <div class="gem-status">
+          <div class="gem-icon"></div>
+          <span class="gem-count">1,250</span>
+        </div>
+      </header>
+      <div class="gacha-result-content">
+        <span class="gacha-result-title">結果</span>
+        <div id="gacha-result-img-container">
+        </div>
+      </div>
+      <div class="button-group">
+        <button class="gacha-button" id="btn-gacha-back-result">
+          &lt;&lt; トップへ
+        </button>
+        <button class="gacha-button" id="btn-gacha-draw-result">
+          続けて引く
+        <span class="button-cost">💎 300</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script src="./js/login.js" type="module"></script>
   <script src="./js/toppage.js"></script>
   <script src="./js/select.js"></script>
   <script src="./js/game.js"></script>
-  <script type="module">
-    // Firebaseの初期化はlogin.jsで行うため、ここでは不要
-  </script>
+  <script src="./js/gacha.js" type="module"></script>
 </body>
 </html>

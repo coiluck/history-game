@@ -1,0 +1,134 @@
+#modal-gacha {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(43, 57, 73, 0.9), rgba(27, 38, 59, 0.9));
+  position: relative;
+}
+.gacha-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  padding: 24px 0;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(240, 235, 216, 0.2);
+}
+#btn-gacha-toTop {
+  display: none;
+  background: transparent;
+  color: #f0ebd8;
+  font-family: serif;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#btn-gacha-toTop:hover {
+  color: #b99d7c;
+}
+.gem-status {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #2d4059, #142136);
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  grid-column: 1;
+  justify-self: start;
+}
+
+.gacha-card {
+  margin: 20px 0 30px;
+  background: linear-gradient(145deg, rgba(30, 40, 50, 0.8), rgba(20, 30, 40, 0.8));;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(166, 138, 100, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gacha-title {
+  margin: 0;
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #a68a64;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+.gacha-image {
+  width: 150px;
+  height: 150px;
+  margin: 25px 0 15px;
+  border: 1px solid #f6d893;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.gacha-description {
+  margin: 10px 0 0;
+  font-size: .8rem;
+  color: #f0ebd8;
+  opacity: 0.9;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(240, 235, 216, 0.2);
+  padding: 30px 0;
+}
+.gacha-button {
+  width: 200px;
+  margin: 0;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 30px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+.gacha-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.gacha-button#btn-gacha-back {
+  background: linear-gradient(145deg, #a68a64, #8a6e4d);
+  color: #f0ebd8;
+}
+.gacha-button#btn-gacha-back:hover {
+  background: linear-gradient(145deg, #b99d7c, #9c8060);
+}
+
+.gacha-button#btn-gacha-draw {
+  background: transparent;
+  border: 1px solid #a68a64;
+  color: #a68a64;
+}
+.gacha-button#btn-gacha-draw:hover {
+  background: rgba(166, 138, 100, 0.1);
+  border: 1px solid #b99d7c;
+  color: #f0ebd8;
+}
+@media (max-width: 768px) {
+  .gacha-container {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .page-header {
+    justify-content: space-between;
+  }
+  .gacha-button {
+    width: 100%;
+  }
+  .gacha-button#btn-gacha-back {
+    display: none;
+  }
+  #btn-gacha-toTop {
+    display: block;
+  }
+}

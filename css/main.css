@@ -373,3 +373,25 @@ body {
         max-height: 90vh;
     }
 }
+
+@media (max-height: 625px) {
+    .header {
+        padding: 8px 12px;
+    }
+    .header h1 {
+        font-size: 1.2rem;
+    }
+    .character-display {
+        gap: 15px;
+    }
+    .character-name {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+    .character-year {
+        margin-bottom: 10px;
+    }
+    .character-description {
+        font-size: 0.8rem;
+    }
+}

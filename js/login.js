@@ -15,6 +15,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+// 他のモジュールで使えるようにexport
+export { db };
+
 document.getElementById('register-link').addEventListener('click', function() {
   document.getElementById('modal-login').style.display = 'none';
   document.getElementById('modal-register').style.display = 'block';
@@ -71,7 +74,7 @@ async function register() {
       user: username,
       password: password,
       gem: 0,
-      character: [1]
+      character: [1, 2]
     };
 
     // Firestoreの'users'コレクションに新しいドキュメントを追加
@@ -164,8 +167,10 @@ window.register = register;
 window.toLogin = toLogin;
 
 function enterToppage() {
-  // ユーザー情報をtopページに反映
-  document.getElementById('gem-count').textContent = window.currentUser.gem;
+  // gemを更新(toppageとgachaの両方)
+  document.querySelectorAll('.gem-count').forEach(gem => {
+    gem.textContent = window.currentUser.gem;
+  });
   // デフォルトではキャラクター1(織田信長)を選択
   if (localStorage.getItem('currentCharacter') === null) {
     localStorage.setItem('currentCharacter', 1);

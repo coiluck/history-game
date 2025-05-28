@@ -86,3 +86,49 @@ document.getElementById('btn-gacha').addEventListener('click', () => {
     document.getElementById('modal-gacha').style.display = 'block';
   }, 500);
 });
+// toppageモーダルの表示
+document.getElementById('btn-gacha-back').addEventListener('click', () => {
+  document.getElementById('modal-gacha').classList.add('fast-fadeout');
+  setTimeout(() => {
+    document.getElementById('modal-gacha').style.display = 'none';
+    document.getElementById('modal-gacha').classList.remove('fast-fadeout');
+    document.getElementById('modal-toppage').classList.add('fast-fadein');
+    document.getElementById('modal-toppage').style.display = 'block';
+  }, 500);
+});
+// toppageモーダルの表示
+document.getElementById('btn-gacha-toTop').addEventListener('click', () => {
+  document.getElementById('modal-gacha').classList.add('fast-fadeout');
+  setTimeout(() => {
+    document.getElementById('modal-gacha').style.display = 'none';
+    document.getElementById('modal-gacha').classList.remove('fast-fadeout');
+    document.getElementById('modal-toppage').classList.add('fast-fadein');
+    document.getElementById('modal-toppage').style.display = 'block';
+  }, 500);
+});
+// toppageモーダルの表示
+document.getElementById('btn-gacha-back-result').addEventListener('click', () => {
+  document.getElementById('modal-gacha').classList.add('fast-fadeout');
+  document.getElementById('modal-gacha-result').classList.add('fast-fadeout');
+  setTimeout(() => {
+    document.getElementById('modal-gacha').style.display = 'none';
+    document.getElementById('modal-gacha').classList.remove('fast-fadeout');
+    document.getElementById('modal-gacha-result').style.display = 'none';
+    document.getElementById('modal-gacha-result').classList.remove('fast-fadeout');
+    document.getElementById('modal-toppage').classList.add('fast-fadein');
+    document.getElementById('modal-toppage').style.display = 'block';
+  }, 500);
+});
+// toppageモーダルの表示
+document.getElementById('btn-gacha-result-toTop').addEventListener('click', () => {
+  document.getElementById('modal-gacha').classList.add('fast-fadeout');
+  document.getElementById('modal-gacha-result').classList.add('fast-fadeout');
+  setTimeout(() => {
+    document.getElementById('modal-gacha').style.display = 'none';
+    document.getElementById('modal-gacha').classList.remove('fast-fadeout');
+    document.getElementById('modal-gacha-result').style.display = 'none';
+    document.getElementById('modal-gacha-result').classList.remove('fast-fadeout');
+    document.getElementById('modal-toppage').classList.add('fast-fadein');
+    document.getElementById('modal-toppage').style.display = 'block';
+  }, 500);
+});
