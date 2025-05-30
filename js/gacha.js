@@ -50,7 +50,7 @@ async function gainCharacter(randomNumbers) {
     }
 
     const userData = userSnap.data();
-    const currentCharacters = userData.character || [1, 2];
+    const currentCharacters = userData.character || [1];
 
     // 重複しないキャラクターIDだけを追加
     const newCharacters = randomNumbers.filter(num => !currentCharacters.includes(num));
@@ -65,6 +65,13 @@ async function gainCharacter(randomNumbers) {
     await updateDoc(userDocRef, {
       character: updatedCharacters
     });
+
+    // DBから最新のデータを再取得
+    const updatedUserSnap = await getDoc(userDocRef);
+    const updatedUserData = updatedUserSnap.data();
+    
+    // window.currentUser.characterを更新
+    window.currentUser.character = updatedUserData.character;
 
     console.log(`追加しました: ${newCharacters}`);
   } catch (error) {
@@ -141,7 +148,7 @@ function drawGacha() {
     }
   }
   console.log(randomNumbers);
-  // ガチャの結果をdbに保存
+  // ガチャの結果をdbとローカル変数に保存
   gainCharacter(randomNumbers);
   // 生成した数字をもとに、データベースから該当するデータを取得し、画像要素を追加
   setGachaResult(randomNumbers);

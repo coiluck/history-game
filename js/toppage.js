@@ -35,29 +35,7 @@ document.getElementById('modal-info-layer').addEventListener('click', () => {
 // selectモーダルの表示
 document.getElementById('btn-characters').addEventListener('click', async () => {
   document.getElementById('modal-toppage').classList.add('fast-fadeout');
-  
-  try {
-    // data.jsonを読み込む
-    const response = await fetch('data.json');
-    const charactersData = await response.json();
-    
-    // 現在選択中のキャラクターIDを取得
-    const currentCharacterId = parseInt(localStorage.getItem('currentCharacter')) || 1;
-    
-    // 現在のキャラクター情報を取得
-    const currentCharacter = charactersData.find(char => char.id === currentCharacterId);
-    
-    if (currentCharacter) {
-      // selectモーダルの説明を選択中のキャラクター情報で更新
-      document.querySelector('.character-info-select h3').textContent = currentCharacter.name;
-      document.querySelector('.character-info-select #birth-year-select').textContent = currentCharacter.birth;
-      document.querySelector('.character-info-select #death-year-select').textContent = currentCharacter.death;
-      document.querySelector('.character-info-select #description-select').innerHTML = currentCharacter.description;
-    }
-  } catch (error) {
-    console.error('Error loading character data:', error);
-  }
-
+  // キャラクターグリッドの生成はselect.jsで行う
   setTimeout(() => {
     document.getElementById('modal-toppage').style.display = 'none';
     document.getElementById('modal-toppage').classList.remove('fast-fadeout');
@@ -132,3 +110,15 @@ document.getElementById('btn-gacha-result-toTop').addEventListener('click', () =
     document.getElementById('modal-toppage').style.display = 'block';
   }, 500);
 });
+
+// game-finish->toppage
+document.getElementById('btn-game-finish-toTop').addEventListener('click', () => {
+  document.getElementById('modal-game-finish').classList.remove('fast-fadein');
+  document.getElementById('modal-game-finish').classList.add('fast-fadeout');
+  setTimeout(() => {
+    document.getElementById('modal-game-finish').style.display = 'none';
+    document.getElementById('modal-game-finish').classList.remove('fast-fadeout');
+    document.getElementById('modal-toppage').classList.add('fast-fadein');
+    document.getElementById('modal-toppage').style.display = 'block';
+  }, 500);
+})

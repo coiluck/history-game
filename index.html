@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/effect.css">
     <link rel="stylesheet" href="./css/select.css">
     <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/game-finish.css">
     <link rel="stylesheet" href="./css/gacha.css">
     <link rel="stylesheet" href="./css/gacha-result.css">
     <link rel="icon" href="./images/favicon.ico">
@@ -216,7 +217,7 @@
         <div class="target-cards-container">
           <div class="card-wrapper">
             <div class="target-character card-front">
-              <div class="game-target-name"></div>
+              <div class="game-target-name" id="judge-correct-incorrect"></div>
               <div id="target-name-front"></div>
             </div>
             <div class="target-character card-back">
@@ -233,6 +234,7 @@
         <button class="choice-button choice-3" data-choice="newer">新しい</button>
       </div>
     </div>
+    <div id="damage-modal"></div>
   </div>
 
   <div id="modal-gacha">
@@ -291,10 +293,23 @@
     </div>
   </div>
 
+  <div id="modal-game-finish">
+    <div class="game-finish-red-layer"></div>
+    <div class="game-finish-content">
+      <div class="game-finish-title">ゲームオーバー/ゲームクリア</div>
+      <div class="game-finish-text">ここに説明を入れる</div>
+      <div class="game-finish-score">
+        <div class="game-finish-score-primary">正解数: 0</div>
+        <div class="game-finish-score-secondary">獲得した宝石: 0</div>
+      </div>
+      <button id="btn-game-finish-toTop">トップへ</button>
+    </div>
+  </div>
+
   <script src="./js/login.js" type="module"></script>
   <script src="./js/toppage.js"></script>
   <script src="./js/select.js"></script>
-  <script src="./js/game.js"></script>
+  <script src="./js/game.js" type="module"></script>
   <script src="./js/gacha.js" type="module"></script>
 </body>
 </html>

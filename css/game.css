@@ -159,13 +159,26 @@
   border-bottom: 1px solid rgba(166, 138, 100, 0.3);
   padding-bottom: 8px;
 }
+#judge-correct-incorrect {
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
 
 #target-name-front, #target-name-back {
-  font-size: 24px;
-  font-weight: bold;
-  color: #a68a64;
   text-align: center;
   text-shadow: 0 0 15px rgba(166, 138, 100, 0.5);
+}
+#target-name-front {
+  color: #f0ebd8;
+  font-size: .9rem;
+  font-weight: nomal;
+}
+#target-name-back {
+  color: #a68a64;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 200%;
 }
 
 /* 選択肢部分 */
@@ -279,8 +292,10 @@
   #game-character-dates-back {
     font-size: .8rem;
   }
-
-  #target-name-front, #target-name-back {
+  #target-name-front {
+    font-size: .8rem;
+  }
+  #target-name-back {
     font-size: 20px;
   }
 
@@ -331,4 +346,16 @@
 
 .card-back {
   transform: rotateY(180deg);
+}
+
+#damage-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.3;
+  z-index: 1000;
 }

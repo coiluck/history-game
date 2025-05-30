@@ -74,7 +74,7 @@ async function register() {
       user: username,
       password: password,
       gem: 0,
-      character: [1, 2]
+      character: [1]
     };
 
     // Firestoreの'users'コレクションに新しいドキュメントを追加
