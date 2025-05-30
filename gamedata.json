@@ -2,1492 +2,1541 @@
   {
     "id": 1,
     "name": "アークライト",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "birth": "1732",
+    "death": "1792",
+    "description": "水力紡績機を発明"
   },
   {
     "id": 2,
-    "name": "アウランパヤー",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アウランゼーブ",
+    "birth": "1618",
+    "death": "1707",
+    "description": "ムガル帝国の君主。ジズヤを復活"
   },
   {
     "id": 3,
-    "name": "アダム・スミス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アラウンパヤー",
+    "birth": "1752",
+    "death": "1760",
+    "description": "コンバウン朝の創始者"
   },
   {
     "id": 4,
-    "name": "アッバース1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アクバル",
+    "birth": "1545",
+    "death": "1605",
+    "description": "ムガル帝国の君主。ジズヤを廃止"
   },
   {
     "id": 5,
-    "name": "アメリゴヴェスプッチ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アダム・スミス",
+    "birth": "1723",
+    "death": "1790",
+    "description": "「富国論」などを著した"
   },
   {
     "id": 6,
-    "name": "アルタン=ハン",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アッバース1世",
+    "birth": "1571",
+    "death": "1629",
+    "description": "サファヴィー朝のシャー"
   },
   {
     "id": 7,
-    "name": "アルバ公",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アメリゴ・ヴェスプッチ",
+    "birth": "1454",
+    "death": "1512",
+    "description": "アメリカが新大陸だと発見"
   },
   {
     "id": 8,
-    "name": "アルブケルケ",
-    "birth": "",
-    "death": "",
+    "name": "アルタン=ハン",
+    "birth": "1508",
+    "death": "1582",
     "description": ""
   },
   {
     "id": 9,
-    "name": "アルメイダ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アルバ公",
+    "birth": "1507",
+    "death": "1582",
+    "description": "スペインの軍人。オランダに圧政を敷く"
   },
   {
     "id": 10,
-    "name": "アレクサンドル1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アルブケルケ",
+    "birth": "1453",
+    "death": "1515",
+    "description": "ポルトガルのインド総督"
   },
   {
     "id": 11,
-    "name": "アンリ4世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アルメイダ",
+    "birth": "1450",
+    "death": "1510",
+    "description": "ポルトガルの初代インド副王。ディウ沖の海戦で活躍"
   },
   {
     "id": 12,
-    "name": "イヴァン3世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アレクサンドル1世",
+    "birth": "1777",
+    "death": "1825",
+    "description": "ロシアの皇帝。ナポレオンを破った"
   },
   {
     "id": 13,
-    "name": "イヴァン4世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アンリ4世",
+    "birth": "1553",
+    "death": "1610",
+    "description": "フランスの国王。ナントの勅令を発布"
   },
   {
     "id": 14,
-    "name": "イェルマーク",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イヴァン3世",
+    "birth": "1440",
+    "death": "1505",
+    "description": "モスクワ大公国の大公。初めてツァーリを自称"
   },
   {
     "id": 15,
-    "name": "イグナティウス=ロヨラ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イヴァン4世",
+    "birth": "1533",
+    "death": "1584",
+    "description": "モスクワ大公国の初代ツァーリ"
   },
   {
     "id": 16,
-    "name": "イサベル",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イェルマーク",
+    "birth": "1532",
+    "death": "1585",
+    "description": "シベリアに探検・侵攻"
   },
   {
     "id": 17,
-    "name": "イスマーイール1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イグナティウス=ロヨラ",
+    "birth": "1491",
+    "death": "1556",
+    "description": "イエズス会の創始者のひとり"
   },
   {
     "id": 18,
-    "name": "イブン・バットゥータ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イサベル",
+    "birth": "1451",
+    "death": "1504",
+    "description": "カスティーリャの女王。アラゴン王と結婚し、グラナダを制圧"
   },
   {
     "id": 19,
-    "name": "イブン・ハルドゥーン",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イスマーイール1世",
+    "birth": "1487",
+    "death": "1524",
+    "description": "サファヴィー朝の創始者"
   },
   {
     "id": 20,
-    "name": "イブン=マージド",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イブン・バットゥータ",
+    "birth": "1304",
+    "death": "1369",
+    "description": "モロッコの旅行家。「三大陸周遊記」を著した"
   },
   {
     "id": 21,
-    "name": "ヴァスコダガマ",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 22,
-    "name": "ウィクリフ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イブン・ハルドゥーン",
+    "birth": "1332",
+    "death": "1406",
+    "description": "イスラームの歴史家。「世界史序説」を著した"
   },
   {
     "id": 23,
-    "name": "ヴォルテール",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "イブン=マージド",
+    "birth": "1421",
+    "death": "1500",
+    "description": "ヴァスコ・ダ・ガマの水先案内人"
   },
   {
     "id": 24,
-    "name": "ウォルポール",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 25,
-    "name": "ウルグ=ベク",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ヴァスコ・ダ・ガマ",
+    "birth": "1460",
+    "death": "1524",
+    "description": "ポルトガルの航海者。インド航路を開拓しカリカットに到達"
   },
   {
     "id": 26,
-    "name": "エカチェリーナ2世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ウィクリフ",
+    "birth": "1324",
+    "death": "1387",
+    "description": "宗教改革の先駆者"
   },
   {
     "id": 27,
-    "name": "エカチェリーナ2世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ヴォルテール",
+    "birth": "1694",
+    "death": "1778",
+    "description": "啓蒙思想家"
   },
   {
     "id": 28,
-    "name": "エセン=ハン",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ウォルポール",
+    "birth": "1676",
+    "death": "1745",
+    "description": "イギリスの責任内閣制最初の首相"
   },
   {
     "id": 29,
-    "name": "エドワード6世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ウルグ=ベク",
+    "birth": "1394",
+    "death": "1449",
+    "description": "ティムール朝の君主。サマルカンドに天文台を建設"
   },
   {
     "id": 30,
-    "name": "エドワード黒太子",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エカチェリーナ2世",
+    "birth": "1729",
+    "death": "1796",
+    "description": "ロシアの皇帝で啓蒙専制君主"
   },
   {
     "id": 31,
-    "name": "エベール",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エセン=ハン",
+    "birth": "1407",
+    "death": "1454",
+    "description": "オイラトの首長。土木の変で正統帝を捕虜にした"
   },
   {
     "id": 32,
-    "name": "エラスムス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エドワード6世",
+    "birth": "1537",
+    "death": "1553",
+    "description": "イングランド国王。一般祈祷書を制定"
   },
   {
     "id": 33,
-    "name": "エリザベス1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エドワード黒太子",
+    "birth": "1330",
+    "death": "1376",
+    "description": "イングランドの王太子。百年戦争前期の戦いに参加"
   },
   {
     "id": 34,
-    "name": "エンリケ航海王子",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エベール",
+    "birth": "1757",
+    "death": "1794",
+    "description": "フランス革命のジャコバン派。理性の崇拝を推進"
   },
   {
     "id": 35,
-    "name": "オスマン1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エラスムス",
+    "birth": "1469",
+    "death": "1536",
+    "description": "「愚神礼賛」を著した"
   },
   {
     "id": 36,
-    "name": "オラニエ公ウィレム",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エリザベス1世",
+    "birth": "1533",
+    "death": "1603",
+    "description": "イングランドの女王"
   },
   {
     "id": 37,
-    "name": "カートライト",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "エンリケ航海王子",
+    "birth": "1394",
+    "death": "1460",
+    "description": "ポルトガルの王子。アフリカ最西端のヴェルデ岬に到達"
   },
   {
     "id": 38,
-    "name": "カール4世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "オスマン1世",
+    "birth": "1258",
+    "death": "1326",
+    "description": "オスマン帝国の初代君主"
   },
   {
     "id": 39,
-    "name": "カール5世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "オラニエ公ウィレム",
+    "birth": "1533",
+    "death": "1584",
+    "description": "オランダ独立を指導した"
   },
   {
     "id": 40,
-    "name": "カール12世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カートライト",
+    "birth": "1743",
+    "death": "1823",
+    "description": "力織機を発明"
   },
   {
     "id": 41,
-    "name": "カジェミシュ3世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カール4世",
+    "birth": "1316",
+    "death": "1378",
+    "description": "神聖ローマ皇帝。金印勅書を定め、プラハ大学を創設"
   },
   {
     "id": 42,
-    "name": "カトリーヌ=ド=メディシス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カール5世",
+    "birth": "1500",
+    "death": "1558",
+    "description": "神聖ローマ皇帝。スレイマン1世やフランソワ1世と戦った"
   },
   {
     "id": 43,
-    "name": "カビール",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カール12世",
+    "birth": "1682",
+    "death": "1718",
+    "description": "スウェーデン国王。北方戦争でロシアと戦う"
   },
   {
     "id": 44,
-    "name": "カブラル",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カジミェシュ3世",
+    "birth": "1310",
+    "death": "1370",
+    "description": "ポーランド国王。ポーランドの基礎を作った"
   },
   {
     "id": 45,
-    "name": "カボット",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カトリーヌ=ド=メディシス",
+    "birth": "1519",
+    "death": "1589",
+    "description": "アンリ2世の王妃。サンバルテルミの虐殺の黒幕"
   },
   {
     "id": 46,
-    "name": "カリクストゥス2世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カビール",
+    "birth": "1440",
+    "death": "1518",
+    "description": "インドの宗教家。バクティ運動とスーフィズムを融合"
   },
   {
     "id": 47,
-    "name": "ガリレオ・ガリレイ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カブラル",
+    "birth": "1467",
+    "death": "1520",
+    "description": "ポルトガルの航海者。ブラジルに到達"
   },
   {
     "id": 48,
-    "name": "カルヴァン",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カボット",
+    "birth": "1450",
+    "death": "1498",
+    "description": "イタリアの航海者。北米を探検"
   },
   {
     "id": 49,
-    "name": "カルロス1世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カリクストゥス2世",
+    "birth": "1065",
+    "death": "1124",
+    "description": "ローマ教皇。ヴォルムス協約を結んだ"
   },
   {
     "id": 50,
-    "name": "カント",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ガリレオ・ガリレイ",
+    "birth": "1564",
+    "death": "1642",
+    "description": "イタリアの天文学者"
   },
   {
     "id": 51,
-    "name": "グスタフ=アドルフ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カルヴァン",
+    "birth": "1509",
+    "death": "1564",
+    "description": "神学者。宗教改革初期の指導者"
   },
   {
     "id": 52,
-    "name": "クライブ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カルロス1世",
+    "birth": "1500",
+    "death": "1558",
+    "description": "またの名をカール5世。"
   },
   {
     "id": 53,
-    "name": "クリスチャン4世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "カント",
+    "birth": "1724",
+    "death": "1804",
+    "description": "ドイツの哲学者。「純粋理性批判」などを著した"
   },
   {
     "id": 54,
-    "name": "グレシャム",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "グスタフ=アドルフ",
+    "birth": "1594",
+    "death": "1632",
+    "description": "スウェーデンの国王。三十年戦争でドイツに侵攻"
   },
   {
     "id": 55,
-    "name": "クロムウェル",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "クライブ",
+    "birth": "1725",
+    "death": "1774",
+    "description": "イギリス東インド会社の人。プラッシーの戦いを指揮"
   },
   {
     "id": 56,
-    "name": "クロンプトン",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "クリスチャン4世",
+    "birth": "1577",
+    "death": "1648",
+    "description": "デンマーク国王。新教側で三十年戦争に介入"
   },
   {
     "id": 57,
-    "name": "コシューシコ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "グレシャム",
+    "birth": "1519",
+    "death": "1579",
+    "description": "イギリスの財政家。「悪貨は良貨を駆逐する」で有名"
   },
   {
     "id": 58,
-    "name": "コペルニクス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "クロムウェル",
+    "birth": "1599",
+    "death": "1658",
+    "description": "ピューリタン革命の指導者。"
   },
   {
     "id": 59,
-    "name": "コルテス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "クロンプトン",
+    "birth": "1753",
+    "death": "1827",
+    "description": "ミュール紡績機を発明"
   },
   {
     "id": 60,
-    "name": "コルベール",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "コシューシコ",
+    "birth": "1746",
+    "death": "1817",
+    "description": "ポーランドの軍人。ポーランド分割の際に蜂起"
   },
   {
     "id": 61,
-    "name": "コンスタンティヌス11世",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "コペルニクス",
+    "birth": "1473",
+    "death": "1543",
+    "description": "地動説を説いたポーランドの天文学者"
   },
   {
     "id": 62,
-    "name": "サヴォナローラ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "コルテス",
+    "birth": "1485",
+    "death": "1547",
+    "description": "スペインのコンキスタドール。アステカ王国を征服"
   },
   {
     "id": 63,
-    "name": "ザクセン選帝侯フリードリヒ",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "コルベール",
+    "birth": "1619",
+    "death": "1683",
+    "description": "ルイ14世の財務総監"
   },
   {
     "id": 64,
-    "name": "シェイエス",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "コンスタンティヌス11世",
+    "birth": "1405",
+    "death": "1453",
+    "description": "東ローマ帝国最後の皇帝"
   },
   {
     "id": 65,
-    "name": "シェイクスピア",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "サヴォナローラ",
+    "birth": "1452",
+    "death": "1498",
+    "description": "フィレンツェの修道士。神権政治を行った"
   },
   {
     "id": 66,
+    "name": "ザクセン選帝侯フリードリヒ",
+    "birth": "1463",
+    "death": "1525",
+    "description": "ルターを保護した"
+  },
+  {
+    "id": 67,
+    "name": "シェイエス",
+    "birth": "1748",
+    "death": "1836",
+    "description": "「第三身分とは何か」を著し、フランス革命の口火を切った"
+  },
+  {
+    "id": 68,
+    "name": "シェイクスピア",
+    "birth": "1564",
+    "death": "1616",
+    "description": "劇作家"
+  },
+  {
+    "id": 69,
     "name": "ジェームズ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 67,
+    "id": 70,
     "name": "ジェームズ6世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 68,
+    "id": 71,
     "name": "ジェファソン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 69,
+    "id": 72,
     "name": "ジギスムント",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 70,
+    "id": 73,
     "name": "シャー=ジャハーン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 71,
+    "id": 74,
     "name": "シャー=ルフ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 72,
+    "id": 75,
     "name": "シャイバーニー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 73,
+    "id": 76,
     "name": "ジャックリー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 74,
+    "id": 77,
     "name": "シャルル7世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 75,
+    "id": 78,
     "name": "シャルル8世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 76,
+    "id": 79,
     "name": "シャルル9世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 77,
+    "id": 80,
     "name": "ジャンヌダルク",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 78,
+    "id": 81,
     "name": "ジョージ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 79,
+    "id": 82,
     "name": "ジョージ3世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 80,
+    "id": 83,
     "name": "ジョゼフ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
-    "id": 81,
-    "name": "ジョン=ケイ",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 82,
-    "name": "ジョンボール",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 83,
-    "name": "スティーヴンソン",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
     "id": 84,
-    "name": "ステンカ=ラージン",
+    "name": "ジョン・ロック",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 85,
-    "name": "スレイマン1世",
+    "name": "ジョン=ケイ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 86,
-    "name": "セリム1世",
+    "name": "ジョンボール",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 87,
-    "name": "ダービー父子",
+    "name": "スティーヴンソン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 88,
-    "name": "タクーシン",
+    "name": "ステンカ=ラージン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 89,
-    "name": "ダライ=ラマ",
+    "name": "スレイマン1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 90,
-    "name": "ダントン",
+    "name": "セリム1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 91,
-    "name": "チャールズ1世",
+    "name": "ダービー父子",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 92,
-    "name": "チャクリ（ラーマ1世）",
+    "name": "タクーシン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 93,
-    "name": "ツヴィングリ",
+    "name": "ダライ=ラマ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 94,
-    "name": "ツォンカパ",
+    "name": "ダントン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 95,
-    "name": "ティムール",
+    "name": "チャールズ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 96,
-    "name": "デカルト",
+    "name": "チャクリ（ラーマ1世）",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 97,
-    "name": "デュプクレス",
+    "name": "ツヴィングリ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 98,
-    "name": "テュルゴー",
+    "name": "ツォンカパ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 99,
-    "name": "トスカネリ",
+    "name": "ティムール",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 100,
-    "name": "トマス=ペイン",
+    "name": "デカルト",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 101,
-    "name": "トマス=マン",
+    "name": "デュプクレス",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 102,
-    "name": "トマスモア",
+    "name": "テュルゴー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 103,
-    "name": "トレヴィシック",
+    "name": "トスカネリ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 104,
-    "name": "ドレーク",
+    "name": "トマス=ペイン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 105,
-    "name": "ナーディル=シャー",
+    "name": "トマス=マン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 106,
-    "name": "ナーナク",
+    "name": "トマスモア",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 107,
-    "name": "ニューコメン",
+    "name": "トレヴィシック",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 108,
-    "name": "ニュートン",
+    "name": "ドレーク",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 109,
-    "name": "ヌルハチ",
+    "name": "ナーディル=シャー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 110,
-    "name": "ネッケル",
+    "name": "ナーナク",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 111,
-    "name": "ネルソン",
+    "name": "ナポレオン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 112,
-    "name": "ハーグリーヴズ",
+    "name": "ニューコメン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 113,
-    "name": "バーブル",
+    "name": "ニュートン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 114,
-    "name": "ハインリヒ4世",
+    "name": "ヌルハチ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 115,
-    "name": "ハインリヒ5世",
+    "name": "ネッケル",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 116,
-    "name": "バストロメウ=ディアス",
+    "name": "ネルソン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 117,
-    "name": "パトリック=ヘンリ",
+    "name": "ハーグリーヴズ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 118,
-    "name": "バブーフ",
+    "name": "バーブル",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 119,
-    "name": "ハミルトン",
+    "name": "ハインリヒ4世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 120,
-    "name": "バヤジット1世",
+    "name": "ハインリヒ5世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 121,
-    "name": "バルボア",
+    "name": "バストロメウ=ディアス",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 122,
-    "name": "ピサロ",
+    "name": "パトリック=ヘンリ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 123,
-    "name": "ピョートル1世",
+    "name": "バブーフ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 124,
-    "name": "ピョートル3世",
+    "name": "ハミルトン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 125,
-    "name": "フィヒテ",
+    "name": "バヤジット1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 126,
-    "name": "フィリップ4世",
+    "name": "バルボア",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 127,
-    "name": "フィリップ6世",
+    "name": "ピサロ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 128,
-    "name": "フィルマー",
+    "name": "ピョートル1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 129,
-    "name": "フェリペ2世",
+    "name": "ピョートル3世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 130,
-    "name": "フェリペ5世",
+    "name": "フィヒテ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 131,
-    "name": "フェルディナンド1世",
+    "name": "フィリップ4世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 132,
-    "name": "フス",
+    "name": "フィリップ6世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 133,
-    "name": "フランシスコ=ザビエル",
+    "name": "フィルマー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 134,
-    "name": "フランソワ1世",
+    "name": "フェリペ2世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 135,
-    "name": "フリードリヒ2世",
+    "name": "フェリペ5世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 136,
-    "name": "フリードリヒ=ヴィルヘルム1世",
+    "name": "フェルディナンド1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 137,
-    "name": "フルトン",
+    "name": "フス",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 138,
-    "name": "フロンド",
+    "name": "フランシスコ=ザビエル",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 139,
-    "name": "ベーコン",
+    "name": "フランソワ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 140,
-    "name": "ヘンリ7世",
+    "name": "フリードリヒ2世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 141,
-    "name": "ヘンリ8世",
+    "name": "フリードリヒ=ヴィルヘルム1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 142,
-    "name": "ホイットニー",
+    "name": "フルトン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 143,
-    "name": "ホーキンズ",
+    "name": "フロンド",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 144,
-    "name": "ボーダン",
+    "name": "ベーコン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 145,
-    "name": "ボシュエ",
+    "name": "ヘンリ7世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 146,
-    "name": "ホップズ",
+    "name": "ヘンリ8世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 147,
-    "name": "ボニファティウス8世",
+    "name": "ホイットニー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 148,
-    "name": "ホンタイジ",
+    "name": "ホーキンズ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 149,
-    "name": "マカートニー",
+    "name": "ボーダン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 150,
-    "name": "マザラン",
+    "name": "ボシュエ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 151,
-    "name": "マックスウェーバー",
+    "name": "ホップズ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 152,
-    "name": "マテオ=リッチ",
+    "name": "ボニファティウス8世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 153,
-    "name": "マラー",
+    "name": "ホンタイジ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 154,
-    "name": "マリ=ルイーズ",
+    "name": "マカートニー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 155,
-    "name": "マリア=テレジア",
+    "name": "マザラン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 156,
-    "name": "マリーアントワネット",
+    "name": "マゼラン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 157,
-    "name": "マルコ=ポーロ",
+    "name": "マックスウェーバー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 158,
-    "name": "ミハイル=ロマノフ",
+    "name": "マテオ・リッチ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 159,
-    "name": "ミュンツァー",
+    "name": "マテオ=リッチ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 160,
-    "name": "ムハンマド=アリー",
+    "name": "マラー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 161,
-    "name": "メアリ1世",
+    "name": "マリ=ルイーズ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 162,
-    "name": "メフメト2世",
+    "name": "マリア=テレジア",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 163,
-    "name": "モンテスキュー",
+    "name": "マリア＝テレジア",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 164,
-    "name": "ヤクブ=ベク",
+    "name": "マリーアントワネット",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 165,
-    "name": "ヨーゼフ2世",
+    "name": "マルコ・ポーロ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 166,
-    "name": "ラ=サール",
+    "name": "マルコ=ポーロ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 167,
-    "name": "ラ=ファイエット",
+    "name": "ミハイル=ロマノフ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 168,
-    "name": "ラヴォワジェ",
+    "name": "ミュンツァー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 169,
-    "name": "ラクスマン",
+    "name": "ムハンマド=アリー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 170,
-    "name": "ラスカサス",
+    "name": "メアリ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 171,
-    "name": "ラダイト",
+    "name": "メフメト2世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 172,
-    "name": "リシュリュー",
+    "name": "モンテスキュー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 173,
-    "name": "ルイ13世",
+    "name": "ヤクブ=ベク",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 174,
-    "name": "ルイ16世",
+    "name": "ヨーゼフ2世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 175,
-    "name": "ルーヴォワ",
+    "name": "ラ=サール",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 176,
-    "name": "ルソー",
+    "name": "ラ=ファイエット",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 177,
-    "name": "ルドルフ1世",
+    "name": "ラヴォワジェ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 178,
-    "name": "レオ10世",
+    "name": "ラクスマン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 179,
-    "name": "レオポルト2世",
+    "name": "ラスカサス",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 180,
-    "name": "ロイヒリン",
+    "name": "ラダイト",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 181,
-    "name": "ローリー",
+    "name": "リシュリュー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 182,
-    "name": "ロック",
+    "name": "ルイ13世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 183,
-    "name": "ロベスピエール",
+    "name": "ルイ14世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 184,
-    "name": "ワシントン",
+    "name": "ルイ16世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 185,
-    "name": "ワット",
+    "name": "ルーヴォワ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 186,
-    "name": "ワットタイラー",
+    "name": "ルソー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 187,
-    "name": "永楽帝",
+    "name": "ルドルフ1世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 188,
-    "name": "王直",
+    "name": "レオ10世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 189,
-    "name": "王陽明",
+    "name": "レオナルド・ダ・ヴィンチ",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 190,
-    "name": "郭守敬",
+    "name": "レオポルト2世",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 191,
-    "name": "乾隆帝",
+    "name": "ロイヒリン",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 192,
-    "name": "建文帝",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 193,
-    "name": "顧憲成",
+    "name": "ローリー",
     "birth": "",
     "death": "",
     "description": ""
   },
   {
     "id": 194,
-    "name": "呉三桂",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ロベスピエール",
+    "birth": "1758",
+    "death": "1794",
+    "description": "フランス革命の指導者。恐怖政治を行った。"
   },
   {
     "id": 195,
-    "name": "康熙帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ワシントン",
+    "birth": "1732",
+    "death": "1799",
+    "description": "アメリカの第1代大統領。<br>独立宣言を発表した"
   },
   {
     "id": 196,
-    "name": "洪武帝（朱元璋）",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ワット",
+    "birth": "1736",
+    "death": "1819",
+    "description": "産業革命時の発明家。蒸気機関を改良した"
   },
   {
     "id": 197,
-    "name": "順治帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ワットタイラー",
+    "birth": "1341",
+    "death": "1381",
+    "description": "イングランドで反乱を起こし、農奴制を撤廃させた"
   },
   {
     "id": 198,
-    "name": "徐光啓",
-    "birth": "",
-    "death": "",
-    "description": ""
-  },
-  {
-    "id": 199,
-    "name": "小ピット",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "永楽帝",
+    "birth": "1360",
+    "death": "1424",
+    "description": "明の皇帝。鄭和をインド洋まで派遣"
   },
   {
     "id": 200,
-    "name": "崇禎帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "王陽明",
+    "birth": "1472",
+    "death": "1529",
+    "description": "明の儒学者。心即理・知行合一からなる陽明学を提唱"
   },
   {
     "id": 201,
-    "name": "世宗",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "郭守敬",
+    "birth": "1231",
+    "death": "1316",
+    "description": "元の天文学者。<br>授時暦を作成した"
   },
   {
     "id": 202,
-    "name": "正統帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "乾隆帝",
+    "birth": "1711",
+    "death": "1799",
+    "description": "清の皇帝。チベットとジュンガルを服属させた"
   },
   {
     "id": 203,
-    "name": "太宗",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "建文帝",
+    "birth": "1377",
+    "death": "1402",
+    "description": "明の皇帝。靖難の変で永楽帝に帝位を簒奪された"
   },
   {
     "id": 204,
-    "name": "張居正",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "顧憲成",
+    "birth": "1550",
+    "death": "1612",
+    "description": "明の政治家。東林党の中心人物"
   },
   {
     "id": 205,
-    "name": "鄭芝竜",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "呉三桂",
+    "birth": "1612",
+    "death": "1678",
+    "description": "明の将軍。李自成の乱の際に清に味方した"
   },
   {
     "id": 206,
-    "name": "鄭成功",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "康熙帝",
+    "birth": "1654",
+    "death": "1722",
+    "description": "清の第4代皇帝。ネルチンスク条約を締結した"
   },
   {
     "id": 207,
-    "name": "鄭和",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "洪武帝（朱元璋）",
+    "birth": "1328",
+    "death": "1398",
+    "description": "明の初代皇帝。中書省を廃止し、六部を直接統括"
   },
   {
     "id": 208,
-    "name": "万暦帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "順治帝",
+    "birth": "1638",
+    "death": "1661",
+    "description": "清の皇帝。北京に入城"
   },
   {
     "id": 209,
-    "name": "李自成",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "徐光啓",
+    "birth": "1562",
+    "death": "1633",
+    "description": "明の政治家。「農政全書」を著した"
   },
   {
     "id": 210,
-    "name": "李舜臣",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "小ピット",
+    "birth": "1759",
+    "death": "1806",
+    "description": "イギリスの首相。数回にわたり対仏大同盟を結成"
   },
   {
     "id": 211,
-    "name": "李成桂",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "崇禎帝",
+    "birth": "1611",
+    "death": "1644",
+    "description": "明の最後の皇帝"
   },
   {
     "id": 212,
-    "name": "雍正帝",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "世宗",
+    "birth": "1397",
+    "death": "1450",
+    "description": "李氏朝鮮の第4代国王。訓民正音を制定"
   },
   {
     "id": 213,
+    "name": "正統帝",
+    "birth": "1427",
+    "death": "1464",
+    "description": "明の皇帝。土木の変でモンゴルの捕虜となった"
+  },
+  {
+    "id": 214,
+    "name": "太宗",
+    "birth": "1367",
+    "death": "1422",
+    "description": "李氏朝鮮の第3代国王"
+  },
+  {
+    "id": 215,
+    "name": "張居正",
+    "birth": "1525",
+    "death": "1582",
+    "description": "明の政治家。一条鞭法を導入"
+  },
+  {
+    "id": 216,
+    "name": "鄭芝竜",
+    "birth": "1604",
+    "death": "1661",
+    "description": "明代の海賊。台湾に進出した"
+  },
+  {
+    "id": 217,
+    "name": "鄭成功",
+    "birth": "1624",
+    "death": "1662",
+    "description": "清代の台湾の支配者。鄭芝竜の子"
+  },
+  {
+    "id": 218,
+    "name": "鄭和",
+    "birth": "1371",
+    "death": "1434",
+    "description": "明の宦官。大規模な航海を行った"
+  },
+  {
+    "id": 219,
+    "name": "万暦帝",
+    "birth": "1563",
+    "death": "1620",
+    "description": "明の皇帝。一条鞭法を導入"
+  },
+  {
+    "id": 220,
+    "name": "李自成",
+    "birth": "1606",
+    "death": "1645",
+    "description": "明の反乱軍の指導者。明を滅ぼした"
+  },
+  {
+    "id": 221,
+    "name": "李舜臣",
+    "birth": "1545",
+    "death": "1598",
+    "description": "朝鮮の将軍。文禄・慶長の役で朝鮮水軍を率いて戦った"
+  },
+  {
+    "id": 222,
+    "name": "李成桂",
+    "birth": "1335",
+    "death": "1408",
+    "description": "李氏朝鮮の建国者"
+  },
+  {
+    "id": 223,
+    "name": "雍正帝",
+    "birth": "1678",
+    "death": "1735",
+    "description": "清の皇帝。キャフタ条約を締結し、キリスト教を禁止"
+  },
+  {
+    "id": 224,
     "name": "魏忠賢",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "birth": "1568",
+    "death": "1627",
+    "description": "明の宦官。東林党を弾圧"
   }
 ]

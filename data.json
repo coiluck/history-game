@@ -306,78 +306,78 @@
     "name": "レオナルド・ダ・ヴィンチ",
     "birth": "1605",
     "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/leonardo.jpg"
+    "description": "ルネサンス期の画家。<br>「モナ・リザ」や「最後の晩餐」などを描いた。",
+    "imgpath": "./images/data/leonardo.avif"
   },
   {
     "id": 32,
     "tag": "EU",
     "play": true,
     "name": "ロベスピエール",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/robspeyer.jpg"
+    "birth": "1758",
+    "death": "1794",
+    "description": "フランス革命の指導者。<br>独裁体制を敷き、恐怖政治を行った。<br>テルミドールのクーデターで倒された。",
+    "imgpath": "./images/data/robespierre.avif"
   },
   {
     "id": 33,
     "tag": "EU",
     "play": true,
     "name": "ワシントン",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/washington.jpg"
+    "birth": "1732",
+    "death": "1799",
+    "description": "アメリカの第1代大統領。<br>独立戦争時に司令官として指揮した",
+    "imgpath": "./images/data/washington.avif"
   },
   {
     "id": 34,
     "tag": "EU",
     "play": true,
     "name": "ワット",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/watt.jpg"
+    "birth": "1736",
+    "death": "1819",
+    "description": "産業革命時の発明家。<br>ニューコメンの蒸気機関を改良した",
+    "imgpath": "./images/data/watt.avif"
   },
   {
     "id": 35,
     "tag": "AS",
     "play": true,
     "name": "乾隆帝",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/qing.jpg"
+    "birth": "1711",
+    "death": "1799",
+    "description": "清の皇帝。<br>チベットとジュンガルを服属させた。<br>「四書全庫」を編纂した",
+    "imgpath": "./images/data/kennryuutei.avif"
   },
   {
     "id": 36,
     "tag": "AS",
     "play": true,
     "name": "康熙帝",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/qing.jpg"
+    "birth": "1654",
+    "death": "1722",
+    "description": "清の第4代皇帝。<br>三藩の乱を鎮圧し、地丁銀制を敷いた。<br>ロシアとの間でネルチンスク条約を締結した。",
+    "imgpath": "./images/data/koukitei.avif"
   },
   {
     "id": 37,
     "tag": "AS",
     "play": true,
     "name": "洪武帝（朱元璋）",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/qing.jpg"
+    "birth": "1328",
+    "death": "1398",
+    "description": "明の初代皇帝。<br>魚鱗図冊や賦役黄冊を作成した。<br>中書省を廃止し、六部を直接統括した。",
+    "imgpath": "./images/data/koubutei.avif"
   },
   {
     "id": 38,
     "tag": "AS",
     "play": true,
     "name": "順治帝",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/qing.jpg"
+    "birth": "1638",
+    "death": "1661",
+    "description": "清の第三代皇帝。<br>呉三桂が明を裏切ったことで北京に入城した。",
+    "imgpath": "./images/data/junntitei.avif"
   },
   {
     "id": 39,
