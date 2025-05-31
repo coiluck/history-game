@@ -88,7 +88,7 @@
     "name": "アンリ4世",
     "birth": "1553",
     "death": "1610",
-    "description": "フランスの国王。ナントの勅令を発布"
+    "description": "フランス国王。ナントの勅令を発布"
   },
   {
     "id": 14,
@@ -480,7 +480,7 @@
     "name": "ジェファソン",
     "birth": "1743",
     "death": "1826",
-    "description": ""
+    "description": "アメリカ初期の指導者。反連邦派"
   },
   {
     "id": 72,
@@ -494,42 +494,42 @@
     "name": "シャー=ジャハーン",
     "birth": "1592",
     "death": "1666",
-    "description": ""
+    "description": "ムガル帝国の君主。都をアグラからデリーに移した"
   },
   {
     "id": 74,
     "name": "シャー=ルフ",
     "birth": "1377",
     "death": "1447",
-    "description": ""
+    "description": "ティムール朝の君主"
   },
   {
     "id": 75,
     "name": "シャイバーニー",
     "birth": "1451",
     "death": "1510",
-    "description": ""
+    "description": "ティムール朝を滅ぼした"
   },
   {
     "id": 77,
     "name": "シャルル7世",
     "birth": "1403",
     "death": "1461",
-    "description": ""
+    "description": "フランス国王。カレーを残してイギリス軍を追い出し、百年戦争を終結させた"
   },
   {
     "id": 78,
     "name": "シャルル8世",
     "birth": "1470",
     "death": "1498",
-    "description": ""
+    "description": "フランス国王。イタリア戦争を開始した"
   },
   {
     "id": 79,
     "name": "シャルル9世",
     "birth": "1550",
     "death": "1574",
-    "description": ""
+    "description": "ユグノー戦争開始時のフランス国王"
   },
   {
     "id": 80,
@@ -550,7 +550,7 @@
     "name": "ジョージ3世",
     "birth": "1738",
     "death": "1820",
-    "description": ""
+    "description": "アメリカ独立戦争時のイギリス国王"
   },
   {
     "id": 84,
@@ -564,28 +564,28 @@
     "name": "ジョン=ケイ",
     "birth": "1704",
     "death": "1779",
-    "description": ""
+    "description": "飛び杼の発明"
   },
   {
     "id": 86,
     "name": "ジョンボール",
     "birth": "1338",
     "death": "1381",
-    "description": ""
+    "description": "「アダムが耕しイブが紡いだ時、誰が領主だったか」と説き、ワットタイラーの乱の原因となった"
   },
   {
     "id": 87,
     "name": "スティーヴンソン",
     "birth": "1781",
     "death": "1848",
-    "description": ""
+    "description": "発明家。蒸気機関車を実用化し、1825年にストックトンからダーリントン間を走らせた"
   },
   {
     "id": 88,
     "name": "ステンカ・ラージン",
     "birth": "1630",
     "death": "1671",
-    "description": ""
+    "description": "1670年に農民反乱を起こした"
   },
   {
     "id": 89,
@@ -599,14 +599,14 @@
     "name": "セリム1世",
     "birth": "1470",
     "death": "1520",
-    "description": ""
+    "description": "オスマン帝国のスルタン。マムルーク朝を滅ぼした"
   },
   {
     "id": 92,
-    "name": "タクーシン",
+    "name": "タークシン",
     "birth": "1734",
     "death": "1782",
-    "description": ""
+    "description": "タイのアユタヤ朝が滅びた際にビルマ軍に抵抗した"
   },
   {
     "id": 94,
@@ -634,14 +634,14 @@
     "name": "ツヴィングリ",
     "birth": "1484",
     "death": "1531",
-    "description": ""
+    "description": "スイスの宗教改革者"
   },
   {
     "id": 98,
     "name": "ツォンカパ",
     "birth": "1357",
     "death": "1419",
-    "description": ""
+    "description": "チベット仏教の改革者。黄帽派の開祖。"
   },
   {
     "id": 99,
@@ -662,7 +662,7 @@
     "name": "デュプクレス",
     "birth": "1697",
     "death": "1763",
-    "description": ""
+    "description": "フランス東インド会社の人。カーナティック戦争ではクライブと戦う"
   },
   {
     "id": 102,
@@ -683,7 +683,7 @@
     "name": "トマス・ペイン",
     "birth": "1737",
     "death": "1809",
-    "description": ""
+    "description": "「コモンセンス」を著し、アメリカ独立を支持した"
   },
   {
     "id": 105,
@@ -704,28 +704,28 @@
     "name": "トレヴィシック",
     "birth": "1771",
     "death": "1833",
-    "description": ""
+    "description": "発明家。蒸気機関車を最初に製作したが、実用化には至らなかった"
   },
   {
     "id": 108,
     "name": "ドレーク",
     "birth": "1543",
     "death": "1596",
-    "description": ""
+    "description": "ホーキンズと共にアルマダの海戦で活躍"
   },
   {
     "id": 109,
     "name": "ナーディル=シャー",
     "birth": "1688",
     "death": "1747",
-    "description": ""
+    "description": "イランでアフシャール朝を創始"
   },
   {
     "id": 110,
     "name": "ナーナク",
     "birth": "1469",
     "death": "1538",
-    "description": ""
+    "description": "インドの宗教家。シク教を創始"
   },
   {
     "id": 111,
@@ -739,7 +739,7 @@
     "name": "ニューコメン",
     "birth": "1664",
     "death": "1729",
-    "description": ""
+    "description": "発明家。蒸気機関を発明"
   },
   {
     "id": 113,
@@ -753,7 +753,7 @@
     "name": "ヌルハチ",
     "birth": "1559",
     "death": "1626",
-    "description": ""
+    "description": "のちの清の建国者。八旗を創設"
   },
   {
     "id": 115,
@@ -774,7 +774,7 @@
     "name": "ハーグリーヴズ",
     "birth": "1720",
     "death": "1778",
-    "description": ""
+    "description": "発明家。ジェニー紡績機を発明"
   },
   {
     "id": 118,
@@ -788,63 +788,63 @@
     "name": "ハインリヒ4世",
     "birth": "1050",
     "death": "1106",
-    "description": ""
+    "description": "叙任権闘争でグレゴリウス7世と争い、「カノッサの屈辱」に"
   },
   {
     "id": 120,
     "name": "ハインリヒ5世",
     "birth": "1086",
     "death": "1125",
-    "description": ""
+    "description": "カリクストゥス2世とヴォルムス条約を結び、叙任権闘争を終わらせた"
   },
   {
     "id": 121,
     "name": "バストロメウ=ディアス",
     "birth": "1450",
     "death": "1500",
-    "description": ""
+    "description": "喜望峰に到達"
   },
   {
     "id": 122,
     "name": "パトリック=ヘンリ",
     "birth": "1736",
     "death": "1799",
-    "description": ""
+    "description": "「代表なくして課税なし」の言葉で有名"
   },
   {
     "id": 123,
     "name": "バブーフ",
     "birth": "1760",
     "death": "1797",
-    "description": ""
+    "description": "共産主義政権の樹立を目指して「バブーフの陰謀」を企てるが失敗"
   },
   {
     "id": 124,
     "name": "ハミルトン",
     "birth": "1755",
     "death": "1804",
-    "description": ""
+    "description": "アメリカ初期の指導者。連邦派"
   },
   {
     "id": 125,
     "name": "バヤジット1世",
     "birth": "1360",
     "death": "1403",
-    "description": ""
+    "description": "オスマン帝国のスルタン。ハンガリー王ジギスムントにニコポリスの戦いで勝利"
   },
   {
     "id": 126,
     "name": "バルボア",
     "birth": "1475",
     "death": "1519",
-    "description": ""
+    "description": "探検家。パナマ地峡を横断"
   },
   {
     "id": 127,
     "name": "ピサロ",
     "birth": "1470",
     "death": "1541",
-    "description": ""
+    "description": "スペインのコンキスタドール。インカ王国を征服"
   },
   {
     "id": 128,
@@ -872,14 +872,14 @@
     "name": "フィリップ4世",
     "birth": "1268",
     "death": "1314",
-    "description": ""
+    "description": "アナーニ事件で教皇を憤死させ、ローマ教皇をアヴィニョンに移す「教皇のバビロン捕囚」を実行"
   },
   {
     "id": 132,
     "name": "フィリップ6世",
     "birth": "1293",
     "death": "1350",
-    "description": ""
+    "description": "百年戦争開始時のフランス国王"
   },
   {
     "id": 133,
@@ -900,21 +900,21 @@
     "name": "フェリペ5世",
     "birth": "1683",
     "death": "1746",
-    "description": ""
+    "description": "スペイン国王。ルイ14世の孫。スペイン継承戦争で王位を承認された"
   },
   {
     "id": 136,
     "name": "フェルディナンド1世",
     "birth": "1503",
     "death": "1564",
-    "description": ""
+    "description": "神聖ローマ皇帝。アウグスブルクの宗教和議や第一次ウィーン包囲の時の皇帝"
   },
   {
     "id": 137,
     "name": "フス",
     "birth": "1369",
     "death": "1415",
-    "description": ""
+    "description": "宗教改革の先駆者"
   },
   {
     "id": 138,
@@ -928,21 +928,21 @@
     "name": "フランソワ1世",
     "birth": "1494",
     "death": "1547",
-    "description": ""
+    "description": "フランス国王。イタリア戦争を再開した"
   },
   {
     "id": 140,
     "name": "フリードリヒ2世",
     "birth": "1712",
     "death": "1786",
-    "description": ""
+    "description": "プロイセン国王。オーストラリア継承戦争や七年戦争で戦った"
   },
   {
     "id": 141,
     "name": "フリードリヒ=ヴィルヘルム1世",
     "birth": "1688",
     "death": "1740",
-    "description": ""
+    "description": "プロイセン国王。軍国主義政策をとった"
   },
   {
     "id": 142,
@@ -963,7 +963,7 @@
     "name": "ヘンリ7世",
     "birth": "1457",
     "death": "1509",
-    "description": ""
+    "description": "ばら戦争後に即位し、テューダー朝を開いた"
   },
   {
     "id": 146,
@@ -991,21 +991,21 @@
     "name": "ボーダン",
     "birth": "1530",
     "death": "1596",
-    "description": ""
+    "description": "フランスで絶対王政を理論化"
   },
   {
     "id": 150,
     "name": "ボシュエ",
     "birth": "1627",
     "death": "1704",
-    "description": ""
+    "description": "ルイ14世に仕え、王権神授説を理論化"
   },
   {
     "id": 151,
     "name": "ホップズ",
     "birth": "1588",
     "death": "1679",
-    "description": ""
+    "description": "イギリスの思想家。「リヴァイアサン」を著した"
   },
   {
     "id": 152,
@@ -1026,7 +1026,7 @@
     "name": "マカートニー",
     "birth": "1737",
     "death": "1806",
-    "description": ""
+    "description": "三跪九叩礼を拒否"
   },
   {
     "id": 155,
@@ -1051,10 +1051,10 @@
   },
   {
     "id": 158,
-    "name": "マテオ・リッチ（利瑪竇）",
+    "name": "マテオ・リッチ",
     "birth": "1552",
     "death": "1610",
-    "description": ""
+    "description": "宣教師。またの名を利瑪竇。"
   },
   {
     "id": 160,
@@ -1250,14 +1250,14 @@
     "name": "ロイヒリン",
     "birth": "1455",
     "death": "1522",
-    "description": ""
+    "description": "ドイツの人文学者。ヘブライ語原典から聖書を研究した"
   },
   {
     "id": 192,
     "name": "ローリー",
     "birth": "1552",
     "death": "1618",
-    "description": ""
+    "description": "エリザベス１世の時にヴァージニアに入植をするが失敗"
   },
   {
     "id": 194,
@@ -1471,100 +1471,100 @@
   },
   {
     "id": 22,
-    "name": "",
-    "birth": "",
-    "death": "",
+    "name": "ペリー",
+    "birth": "1794",
+    "death": "1858",
     "description": ""
   },
   {
     "id": 25,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "セシル・ローズ",
+    "birth": "1853",
+    "death": "1902",
+    "description": "ケープ植民地の首相。ローデシアを獲得し、ブール人の国の併合を画策"
   },
   {
     "id": 76,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "リー将軍",
+    "birth": "1807",
+    "death": "1870",
+    "description": "南部連合の名将"
   },
   {
     "id": 83,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アマースト",
+    "birth": "1773",
+    "death": "1857",
+    "description": "三跪九叩礼を拒否"
   },
   {
     "id": 91,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "アレクサンドル2世",
+    "birth": "1818",
+    "death": "1881",
+    "description": "ロシアの皇帝。農奴解放令を出した"
   },
   {
     "id": 93,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "パラツキー",
+    "birth": "1798",
+    "death": "1876",
+    "description": "ベーメンの民族運動指導者。スラヴ民族会議の議長"
   },
   {
     "id": 143,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ディズレーリ",
+    "birth": "1804",
+    "death": "1881",
+    "description": "イギリスの首相。スエズ運河買収、インド帝国成立など、帝国主義政策を実施"
   },
   {
     "id": 159,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ミドハト=パシャ",
+    "birth": "1822",
+    "death": "1884",
+    "description": "オスマン帝国の政治家。ミドハト憲法を作成"
   },
   {
     "id": 163,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "阮福映（嘉隆帝）",
+    "birth": "1762",
+    "death": "1820",
+    "description": "ベトナムの皇帝。ピニョーの支援を受けて西山朝を倒した"
   },
   {
     "id": 166,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ホセ=リサール",
+    "birth": "1861",
+    "death": "1896",
+    "description": "フィリピン独立運動の指導者。「我に触れるな」を著した"
   },
   {
     "id": 175,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "林則徐",
+    "birth": "1785",
+    "death": "1850",
+    "description": "清朝の官吏。欽差大臣として広州でアヘンを取り締まった"
   },
   {
     "id": 180,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ピニョー",
+    "birth": "1741",
+    "death": "1799",
+    "description": "宣教師。ベトナムの阮福映を支援し、フランスのインドシナ進出の契機をつくった。"
   },
   {
     "id": 193,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "ナポレオン3世",
+    "birth": "1808",
+    "death": "1873",
+    "description": "フランスの皇帝。クリミア戦争やメキシコ出兵など、積極的な対外政策を行った"
   },
   {
     "id": 199,
-    "name": "",
-    "birth": "",
-    "death": "",
-    "description": ""
+    "name": "レセップス",
+    "birth": "1805",
+    "death": "1894",
+    "description": "フランスの外交官、実業家。1869年にスエズ運河を完成させた"
   }
 ]

@@ -106,7 +106,7 @@
     "name": "エリザベス1世",
     "birth": "1533",
     "death": "1603",
-    "description": "イングランドのテューダー朝の女王。<br>1588年のアルマダの海戦でスペインの無敵艦隊を破った。<br>首長法や統一法で国教会を成立させた。",
+    "description": "イングランドのテューダー朝の女王。<br>1588年のアルマダの海戦でスペインの無敵艦隊を破った。<br>統一法で国教会を成立させた。",
     "imgpath": "./images/data/elizabeth1.avif"
   },
   {
@@ -216,96 +216,96 @@
     "name": "フェリペ2世",
     "birth": "1527",
     "death": "1598",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/felipe2.jpg"
+    "description": "スペインの国王。<br>レパントの海戦ではオスマン帝国を破った。<br>ポルトガルを併合して多くの海外領土を保有し、「太陽の沈まぬ国」と形容された。",
+    "imgpath": "./images/data/philip2.avif"
   },
   {
     "id": 23,
     "tag": "EU",
     "play": true,
     "name": "ヘンリ8世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/henry8.jpg"
+    "birth": "1491",
+    "death": "1547",
+    "description": "イングランドの国王。<br>首長法を制定し、イギリス国教会を創始した。",
+    "imgpath": "./images/data/henry8.avif"
   },
   {
     "id": 24,
     "tag": "EU",
     "play": true,
     "name": "マゼラン",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/magellan.jpg"
+    "birth": "1480",
+    "death": "1521",
+    "description": "航海者。<br>南米大陸南端のマゼラン海峡に到達し、太平洋を横断してフィリピンまでたどり着いた。",
+    "imgpath": "./images/data/magellan.avif"
   },
   {
     "id": 25,
     "tag": "EU",
     "play": true,
     "name": "マテオ・リッチ",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/matteoli.jpg"
+    "birth": "1552",
+    "death": "1610",
+    "description": "イエズス会宣教師。明末に中国でカトリックの布教を行った。<br>「坤輿万国全図」を作成した。",
+    "imgpath": "./images/data/matteo.avif"
   },
   {
     "id": 26,
     "tag": "EU",
     "play": true,
     "name": "マリア＝テレジア",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/maria-tereza.jpg"
+    "birth": "1717",
+    "death": "1780",
+    "description": "オーストリア大公妃<br>オーストリア継承戦争でプロイセンに敗れたが、外交革命ののちの七年戦争では勝利した。",
+    "imgpath": "./images/data/maria-theresia.avif"
   },
   {
     "id": 27,
     "tag": "EU",
     "play": true,
     "name": "マルコ・ポーロ",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/marco-polo.jpg"
+    "birth": "1254",
+    "death": "1324",
+    "description": "元のフビライに仕えたヴェネツィアの商人。<br>「東方見聞録」を著した。",
+    "imgpath": "./images/data/marco.avif"
   },
   {
     "id": 28,
     "tag": "EU",  
     "play": true,
     "name": "メフメト2世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/mehmet2.jpg"
+    "birth": "1432",
+    "death": "1481",
+    "description": "オスマン帝国のスルタン。<br>1453年にコンスタンティノープルを征服し、ビザンツ帝国を滅ぼした。",
+    "imgpath": "./images/data/mehmet2.avif"
   },
   {
     "id": 29,
     "tag": "EU",
     "play": true,
     "name": "ルイ14世",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/louis14.jpg"
+    "birth": "1638",
+    "death": "1715",
+    "description": "フランスの国王。<br>南ネーデルラント継承戦争からスペイン継承戦争まで多くの対外戦争を行った。",
+    "imgpath": "./images/data/louis14.avif"
   },
   {
     "id": 30,
     "tag": "EU",
     "play": true,
     "name": "ルソー",
-    "birth": "1605",
-    "death": "1645",
-    "description": "ロシアの第1代皇帝。<br>",
-    "imgpath": "./images/data/rousseau.jpg"
+    "birth": "1712",
+    "death": "1778",
+    "description": "フランスの哲学者・啓蒙思想家。<br>社会契約説は市民革命に大きな影響を与えた。",
+    "imgpath": "./images/data/rousseau.avif"
   },
   {
     "id": 31,
     "tag": "EU",
     "play": true,
     "name": "レオナルド・ダ・ヴィンチ",
-    "birth": "1605",
-    "death": "1645",
+    "birth": "1452",
+    "death": "1519",
     "description": "ルネサンス期の画家。<br>「モナ・リザ」や「最後の晩餐」などを描いた。",
     "imgpath": "./images/data/leonardo.avif"
   },

@@ -133,6 +133,7 @@ function drawGacha() {
     return;
   }
   // モーダルを結果用のものに遷移し、リセット
+  document.getElementById('modal-gacha').classList.remove('fast-fadein')
   document.getElementById('modal-gacha').style.display = 'none';
   document.getElementById('modal-gacha-result').style.display = 'block';
   document.getElementById('gacha-result-img-container').innerHTML = '';

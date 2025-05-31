@@ -10,6 +10,7 @@ function disableButtons() {
     button.disabled = true;
   });
   isFlipping = true;
+  isProcessing = true;  // フリップ中も処理中としてマーク
 }
 
 function enableButtons() {
@@ -17,6 +18,7 @@ function enableButtons() {
     button.disabled = false;
   });
   isFlipping = false;
+  isProcessing = false;  // フリップ完了時に処理中フラグを解除
 }
 
 function flipCards() {
@@ -115,6 +117,7 @@ function initGame() {
   nowTargetDeath = null;
   nowTargetDiscription = null;
   isProcessing = false;
+  isFlipped = false;
   // 表示の初期化
   document.getElementById('damage-modal').style.display = 'none';
   document.getElementById('game-score').textContent = `正解数: ${score}`;
@@ -122,8 +125,15 @@ function initGame() {
   for (let i = 0; i < lives; i++) {
     document.querySelector('.lives-container').innerHTML += '<span class="heart">❤️</span>';
   }
-  // 結果用のモーダルの赤いレイヤーを非表示に
-  document.getElementById('modal-game-finish').style.background = 'linear-gradient(145deg, rgba(43, 57, 73, 0.9), rgba(27, 38, 59, 0.9));';
+  // flipカードの状態と内容を初期化
+  const targetCardWrapper = document.querySelector('.card-wrapper');
+  if (targetCardWrapper) {
+    targetCardWrapper.classList.remove('flipped');
+  }
+  document.getElementById('target-name-front').innerHTML = '';
+  document.getElementById('target-name-back').textContent = '';
+  document.getElementById('judge-correct-incorrect').textContent = '';
+
 }
 
 async function newQuestion() {
@@ -136,22 +146,19 @@ async function newQuestion() {
   nowTargetBirth = Number(nextCharacter.birth);
   nowTargetDeath = Number(nextCharacter.death);
   nowTargetDiscription = nextCharacter.description;
+  
   // 変更->表面は正誤判定、裏面が問題
   if (isFlipped) {
     // 今は裏側->card-front側に書く
-    alert('連続の高速なクリックはゲーム動作に悪影響を与えます');
+    console.log('連続の高速なクリックはゲーム動作に悪影響を与えます');
+    return;  // 早期リターン
   } else {
     // 今は表側->card-back側に書く
     document.getElementById('target-name-back').textContent = nextCharacter.name;
   }
+  
   // 更新した側にひっくり返す
   flipCards();
-  if(isFlipped) {
-    // 問題が出されたはず
-    setTimeout( ()=>{
-      isProcessing = false;
-    }, 650);
-  }
 }
 
 async function getNewCharacterId() {
@@ -160,9 +167,7 @@ async function getNewCharacterId() {
   const minId = gameData[0].id;
   const maxId = gameData[gameData.length - 1].id;
   let randomId;
-  do {
-    randomId = Math.floor(Math.random() * (maxId - minId + 1)) + minId;
-  } while (randomId === currentCharacterId);
+  randomId = Math.floor(Math.random() * (maxId - minId + 1)) + minId;
   // gamedata.jsonから削除した人物
   // データのダブり
   // イブン・バットゥータ, ロック, ヴァスコ・ダ・ガマ, マテオリッチ, マリアテレジア, マルコポーロ
@@ -172,7 +177,8 @@ async function getNewCharacterId() {
   // ダービー父子、ダライラマ, 王直の生年が不明, ラサール
   // この数字多くなりすぎだし1800以降の人物入れてナポレオンで昔連打作戦つぶすか
   // 22 25 76 83 91 93 143 159 163 166 175 180 199 193
-  // この値は選択中のキャラクターではない
+  // この値は選択中のキャラクター以外の人物のidではなくないか。gamedata.jsonとdata.jsonのidは一致しない
+  // じゃあdo while文なくして重複を許そう
   return randomId;
 }
 
@@ -240,12 +246,13 @@ async function checkAnswer(event) {
 document.querySelectorAll('.choice-button').forEach(button => {
   button.addEventListener('click', async (event) => {
     // 連続クリック防止
-    if (isProcessing) return;
-    isProcessing = true;  // これは次の選択肢が表示されたらfalseになる。newQuestion関数内
+    if (isProcessing || isFlipping) return;
+    isProcessing = true;
+    
     // 回答の正誤判定
     await checkAnswer(event);
-    // 連続クリック防止解除
-    isProcessing = false;
+    
+    // 次の問題への移行は、アニメーション完了後に自動的に行われる
   });
 });
 
@@ -273,8 +280,6 @@ function takeDamage() {
 }
 
 function gameOver() {
-  // 赤い画面のまま終わるか
-  document.getElementById('modal-game-finish').style.background = 'linear-gradient(145deg, rgba(111, 39, 49, 0.93), rgba(101, 26, 40, 0.93))';
   // modal-game-finishを更新
   document.querySelector('.game-finish-title').textContent = 'ゲームオーバー';
   document.querySelector('.game-finish-text').textContent = 'ライフがなくなりました';
