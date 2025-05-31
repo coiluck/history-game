@@ -173,6 +173,7 @@
   color: #f0ebd8;
   font-size: .9rem;
   font-weight: nomal;
+  line-height: 80%;
 }
 #target-name-back {
   color: #a68a64;
@@ -359,3 +360,27 @@
   opacity: 0.3;
   z-index: 1000;
 }
+
+.game-answer-target-discription {
+  font-size: 0.9rem;
+}
+.game-answer-target-year {
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .game-answer-target-discription {
+    font-size: 0.8rem;
+  }
+  .game-answer-target-year {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .game-answer-target-discription {
+    font-size: 0.7rem;
+  }
+  .game-answer-target-year {
+    font-size: 0.7rem;
+  }
+}
+

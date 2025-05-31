@@ -195,7 +195,7 @@ async function checkAnswer(event) {
         score++;
         document.getElementById('game-score').textContent = `正解数: ${score}`;
         document.getElementById('judge-correct-incorrect').textContent = "正解";
-        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br>${nowTargetBirth} - ${nowTargetDeath}<br><br>${nowTargetDiscription}`;
+        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br><span class="game-answer-target-year">${nowTargetBirth} - ${nowTargetDeath}</span><br><br><span class="game-answer-target-discription">${nowTargetDiscription}</span>`;
         flipCards();
       } else {
         // 不正解
@@ -209,7 +209,7 @@ async function checkAnswer(event) {
         score++;
         document.getElementById('game-score').textContent = `正解数: ${score}`;
         document.getElementById('judge-correct-incorrect').textContent = "正解";
-        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br>${nowTargetBirth} - ${nowTargetDeath}<br><br>${nowTargetDiscription}`;
+        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br><span class="game-answer-target-year">${nowTargetBirth} - ${nowTargetDeath}</span><br><br><span class="game-answer-target-discription">${nowTargetDiscription}</span>`;
         flipCards();
       } else {
         // 不正解
@@ -223,7 +223,7 @@ async function checkAnswer(event) {
         score++;
         document.getElementById('game-score').textContent = `正解数: ${score}`;
         document.getElementById('judge-correct-incorrect').textContent = "正解";
-        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br>${nowTargetBirth} - ${nowTargetDeath}<br><br>${nowTargetDiscription}`;
+        document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br><span class="game-answer-target-year">${nowTargetBirth} - ${nowTargetDeath}</span><br><br><span class="game-answer-target-discription">${nowTargetDiscription}</span>`;
         flipCards();
       } else {
         // 不正解
@@ -239,7 +239,7 @@ async function checkAnswer(event) {
     gameFinish();
   } else {
     // 問題がないのなら次の問題へ
-    setTimeout(newQuestion, 1500);
+    setTimeout(newQuestion, 1700);
   }
 }
 
@@ -259,7 +259,7 @@ document.querySelectorAll('.choice-button').forEach(button => {
 function takeDamage() {
   lives--;
   document.getElementById('judge-correct-incorrect').textContent = "不正解";
-  document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br>${nowTargetBirth} - ${nowTargetDeath}<br><br>${nowTargetDiscription}`;
+  document.getElementById('target-name-front').innerHTML = `${nowTargetName}<br><br><span class="game-answer-target-year">${nowTargetBirth} - ${nowTargetDeath}</span><br><br><span class="game-answer-target-discription">${nowTargetDiscription}</span>`;
   flipCards();
   // 画面を赤く
   document.getElementById('damage-modal').style.display = 'block';
