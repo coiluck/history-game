@@ -174,7 +174,7 @@ function enterToppage() {
   // デフォルトではキャラクター1(織田信長)を選択
   if (localStorage.getItem('currentCharacter') === null) {
     localStorage.setItem('currentCharacter', 1);
-  } else if (!window.currentUser.character.includes(localStorage.getItem('currentCharacter'))) {
+  } else if (!window.currentUser.character.includes(Number(localStorage.getItem('currentCharacter')))) {
     // 持っていないキャラを選択していたらキャラクター1(織田信長)に変更
     // ローカルストレージを使用しているので、同じブラウザで別のアカウントを作ると所持していないキャラを選択する不具合がある
     localStorage.setItem('currentCharacter', 1);

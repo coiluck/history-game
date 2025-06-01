@@ -234,6 +234,7 @@ async function checkAnswer(event) {
       console.log('不明なボタンが押されました。');
       break;
   }
+  console.log(`${nowTargetName}: ${nowTargetBirth} - ${nowTargetDeath}`)
   if(score >= 30) {
     // ゲーム終了
     gameFinish();
@@ -265,7 +266,9 @@ function takeDamage() {
   document.getElementById('damage-modal').style.display = 'block';
   if (lives <= 0) {
     // ゲームオーバー
-    gameOver()
+    setTimeout(() => {
+      gameOver()
+    }, 600);
     return;
   }
   // ゲームオーバーじゃないなら赤い画面消す
