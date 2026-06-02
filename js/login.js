@@ -28,6 +28,15 @@ function toLogin() {
   document.getElementById('modal-login').style.display = 'block';
 }
 
+// SHA-256ハッシュ化（ユーザー名をsaltとして使用）
+async function hashPassword(username, password) {
+  const data = new TextEncoder().encode(username + ':' + password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(hashBuffer))
+    .map(b => b.toString(16).padStart(2, '0'))
+    .join('');
+}
+
 // ユーザー名の重複チェック関数
 async function checkUserExists(username) {
   try {
@@ -69,19 +78,16 @@ async function register() {
       return;
     }
 
-    // OKなら新しいユーザードキュメントのデータを準備
+    const hashedPassword = await hashPassword(username, password);
+
     const userData = {
       user: username,
-      password: password,
+      password: hashedPassword,
       gem: 0,
       character: [1]
     };
 
-    // Firestoreの'users'コレクションに新しいドキュメントを追加
-    // addDoc関数は自動的にユニークなIDを生成します
     const docRef = await addDoc(collection(db, 'users'), userData);
-              
-    console.log('新しいユーザーが作成されました。ドキュメントID:', docRef.id);
 
     window.currentUser = {
       id: docRef.id,
@@ -112,37 +118,29 @@ async function login() {
     const username = document.getElementById('username').value.trim();
     const password = document.getElementById('password').value;
 
-    console.log('検索するユーザー名:', username); // デバッグ用
-
     if (!username || !password) {
       alert('ユーザー名とパスワードを入力してください');
       return;
     }
 
-    // デバッグ用：全てのユーザーを取得して確認
     const usersRef = collection(db, 'users');
-
     const q = query(usersRef, where('user', '==', username));
     const querySnapshot = await getDocs(q);
-
-    console.log('クエリ結果:', querySnapshot.size, '件'); // デバッグ用
 
     if (querySnapshot.empty) {
       alert('ユーザー名が見つかりません');
       return;
     }
 
-    // 以下は既存のコードと同じ...
     const userDoc = querySnapshot.docs[0];
     const userData = userDoc.data();
-    
-    if (userData.password !== password) {
+
+    const hashedPassword = await hashPassword(username, password);
+    if (userData.password !== hashedPassword) {
       alert('パスワードが間違っています');
       return;
     }
 
-    console.log('ログイン成功:', userData);
-    
     window.currentUser = {
       id: userDoc.id,
       user: userData.user,
@@ -153,8 +151,8 @@ async function login() {
     enterToppage();
   
   } catch (error) {
-    console.error('ログインエラー:', error);
-    alert('ログイン中にエラーが発生しました: ' + error.message);
+    console.error('ログインエラー');
+    alert('ログイン中にエラーが発生しました。もう一度お試しください');
   } finally {
     loginBtn.disabled = false;
     loginBtn.textContent = 'ログイン';
@@ -203,27 +201,21 @@ async function loadData() {
   
 // IDに基づいて人物情報を表示
 async function displayPersonInfo(id) {
-  console.log('探します - ID:', id, 'Type:', typeof id); // デバッグ用ログ
   const data = await loadData();
-  
+
   if (!data) {
-    console.log('データを読み込めませんでした');
     return;
   }
-    
-  // IDで検索
+
   const person = data.find(item => item.id === Number(id));
-  console.log('選択中のキャラ:', person); // デバッグ用ログ
-  
+
   if (person) {
-    // Topページに反映
     document.querySelector('.character-name').textContent = person.name;
     document.getElementById('birth-year').textContent = person.birth;
     document.getElementById('death-year').textContent = person.death;
     document.getElementById('description').innerHTML = person.description;
     document.getElementById('character-image').src = person.imgpath;
   } else {
-    console.log(`id: ${id} の人物が見つかりませんでした`);
     localStorage.setItem('currentCharacter', 1);
     displayPersonInfo(1);
   }

@@ -234,7 +234,6 @@ async function checkAnswer(event) {
       console.log('不明なボタンが押されました。');
       break;
   }
-  console.log(`${nowTargetName}: ${nowTargetBirth} - ${nowTargetDeath}`)
   if(score >= 30) {
     // ゲーム終了
     gameFinish();
